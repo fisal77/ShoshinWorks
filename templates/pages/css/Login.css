@@ -1,0 +1,10457 @@
+:root {
+	--web-view-ids: Login,Login_medium,Login_small;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: false;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Login,
+#Login_medium,
+#Login_small {
+	display: none;
+}
+@media (min-width: 1920px) {
+	.mediaViewInfo {
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login {
+		position: absolute;
+		display: block;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(13,2,2,1);
+		overflow: hidden;
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Please_log_in_or_sign_up_for_a {
+		left: 1058px;
+		top: 290px;
+		position: absolute;
+		overflow: visible;
+		width: 721px;
+		height: 60px;
+		line-height: 22px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#forminput {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 1288px;
+		top: 370px;
+		overflow: visible;
+	}
+	#Username {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.871);
+	}
+	#Rectangle_315 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315 {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#forminput_ {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 1288px;
+		top: 463px;
+		overflow: visible;
+	}
+	#Password {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.6);
+	}
+	#Rectangle_315_ {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315_ {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#formcheckboxunchecked {
+		position: absolute;
+		width: 116px;
+		height: 17px;
+		left: 1288px;
+		top: 550px;
+		overflow: visible;
+	}
+	#Remember_me {
+		left: 27px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,0.8);
+	}
+	#Group_510 {
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_133 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(212,212,213,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_133 {
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	#Forgot_password {
+		left: 1446px;
+		top: 550px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		line-height: 16px;
+		margin-top: -1px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(33,133,208,1);
+		text-decoration: underline;
+	}
+	#buttonprimary {
+		position: absolute;
+		width: 86px;
+		height: 38px;
+		left: 1287.5px;
+		top: 613px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_451 {
+		fill: rgba(134,230,133,1);
+	}
+	.Rectangle_451 {
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Log_in {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#buttonsecondary {
+		position: absolute;
+		width: 96px;
+		height: 38px;
+		left: 1452px;
+		top: 613px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_27 {
+		fill: rgba(38,128,235,1);
+	}
+	.Rectangle_27 {
+		position: absolute;
+		overflow: visible;
+		width: 96px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sign_Up {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_24 {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1872px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_3 {
+		opacity: 0.06;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3 {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_1 {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_25 {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1872px;
+		top: 216px;
+		overflow: visible;
+	}
+	#Rectangle_3_bo {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_bo {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2 {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_26 {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1872px;
+		top: 432px;
+		overflow: visible;
+	}
+	#Rectangle_3_br {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_br {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_3 {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_27 {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1872px;
+		top: 648px;
+		overflow: visible;
+	}
+	#Rectangle_3_bu {
+		opacity: 0.12;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_bu {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_4 {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_28 {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1872px;
+		top: 864px;
+		overflow: visible;
+	}
+	#Rectangle_3_bx {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_bx {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_5 {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_5 {
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		left: 1759px;
+		top: 963px;
+		overflow: visible;
+	}
+	#Ellipse_1 {
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1 {
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_b {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 25px;
+		top: 26px;
+		overflow: visible;
+	}
+	#Path_4 {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0px;
+		top: 9.191px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5 {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5 {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 11.438px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_6 {
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		left: 1674px;
+		top: 963px;
+		overflow: visible;
+	}
+	#Ellipse_1_b {
+		fill: rgba(230,230,232,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1_b {
+		position: absolute;
+		overflow: visible;
+		width: 70px;
+		height: 70px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_ca {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 24.392px;
+		top: 26px;
+		overflow: visible;
+	}
+	#Path_4_b {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4_b {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0.381px;
+		top: 9.191px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5_b {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5_b {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_2 {
+		opacity: 0.39;
+		position: absolute;
+		width: 578px;
+		height: 210px;
+		left: 184px;
+		top: 6px;
+		overflow: visible;
+	}
+	#Rectangle_2 {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2 {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_2_cb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 0px;
+	}
+	#Rectangle_2_cc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 0px;
+	}
+	#Rectangle_2_cd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 0px;
+	}
+	#Rectangle_2_ce {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ce {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 0px;
+	}
+	#Rectangle_2_cf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 0px;
+	}
+	#Rectangle_2_cg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 0px;
+	}
+	#Rectangle_2_ch {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ch {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 0px;
+	}
+	#Rectangle_2_ci {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ci {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 0px;
+	}
+	#Rectangle_2_cj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 0px;
+	}
+	#Rectangle_2_ck {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ck {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 0px;
+	}
+	#Rectangle_2_cl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 0px;
+	}
+	#Rectangle_2_cm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 0px;
+	}
+	#Rectangle_2_cn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 0px;
+	}
+	#Rectangle_2_co {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_co {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 0px;
+	}
+	#Rectangle_2_cp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 0px;
+	}
+	#Rectangle_2_cq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 0px;
+	}
+	#Rectangle_2_cr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 0px;
+	}
+	#Rectangle_2_cs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 0px;
+	}
+	#Rectangle_2_ct {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ct {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 0px;
+	}
+	#Rectangle_2_cu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 0px;
+	}
+	#Rectangle_2_cv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 0px;
+	}
+	#Rectangle_2_cw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 0px;
+	}
+	#Rectangle_2_cx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 0px;
+	}
+	#Rectangle_2_cy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 0px;
+	}
+	#Rectangle_2_cz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_cz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 0px;
+	}
+	#Rectangle_2_c {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_c {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 23px;
+	}
+	#Rectangle_2_da {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_da {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 23px;
+	}
+	#Rectangle_2_db {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_db {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 23px;
+	}
+	#Rectangle_2_dc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 23px;
+	}
+	#Rectangle_2_dd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 23px;
+	}
+	#Rectangle_2_de {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_de {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 23px;
+	}
+	#Rectangle_2_df {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_df {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 23px;
+	}
+	#Rectangle_2_dg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 23px;
+	}
+	#Rectangle_2_dh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 23px;
+	}
+	#Rectangle_2_di {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_di {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 23px;
+	}
+	#Rectangle_2_dj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 23px;
+	}
+	#Rectangle_2_dk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 23px;
+	}
+	#Rectangle_2_dl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 23px;
+	}
+	#Rectangle_2_dm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 23px;
+	}
+	#Rectangle_2_dn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 23px;
+	}
+	#Rectangle_2_do {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_do {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 23px;
+	}
+	#Rectangle_2_dp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 23px;
+	}
+	#Rectangle_2_dq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 23px;
+	}
+	#Rectangle_2_dr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 23px;
+	}
+	#Rectangle_2_ds {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ds {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 23px;
+	}
+	#Rectangle_2_dt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 23px;
+	}
+	#Rectangle_2_du {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_du {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 23px;
+	}
+	#Rectangle_2_dv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 23px;
+	}
+	#Rectangle_2_dw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 23px;
+	}
+	#Rectangle_2_dx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 23px;
+	}
+	#Rectangle_2_dy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 23px;
+	}
+	#Rectangle_2_dz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_dz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 46px;
+	}
+	#Rectangle_2_d {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_d {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 46px;
+	}
+	#Rectangle_2_ea {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ea {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 46px;
+	}
+	#Rectangle_2_eb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 46px;
+	}
+	#Rectangle_2_ec {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ec {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 46px;
+	}
+	#Rectangle_2_ed {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ed {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 46px;
+	}
+	#Rectangle_2_ee {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ee {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 46px;
+	}
+	#Rectangle_2_ef {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ef {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 46px;
+	}
+	#Rectangle_2_eg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 46px;
+	}
+	#Rectangle_2_eh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 46px;
+	}
+	#Rectangle_2_ei {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ei {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 46px;
+	}
+	#Rectangle_2_ej {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ej {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 46px;
+	}
+	#Rectangle_2_ek {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ek {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 46px;
+	}
+	#Rectangle_2_el {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_el {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 46px;
+	}
+	#Rectangle_2_em {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_em {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 46px;
+	}
+	#Rectangle_2_en {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_en {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 46px;
+	}
+	#Rectangle_2_eo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 46px;
+	}
+	#Rectangle_2_ep {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ep {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 46px;
+	}
+	#Rectangle_2_eq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 46px;
+	}
+	#Rectangle_2_er {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_er {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 46px;
+	}
+	#Rectangle_2_es {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_es {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 46px;
+	}
+	#Rectangle_2_et {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_et {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 46px;
+	}
+	#Rectangle_2_eu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_eu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 46px;
+	}
+	#Rectangle_2_ev {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ev {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 46px;
+	}
+	#Rectangle_2_ew {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ew {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 46px;
+	}
+	#Rectangle_2_ex {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ex {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 46px;
+	}
+	#Rectangle_2_ey {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ey {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 69px;
+	}
+	#Rectangle_2_ez {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ez {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 69px;
+	}
+	#Rectangle_2_e {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_e {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 69px;
+	}
+	#Rectangle_2_fa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 69px;
+	}
+	#Rectangle_2_fb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 69px;
+	}
+	#Rectangle_2_fc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 69px;
+	}
+	#Rectangle_2_fd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 69px;
+	}
+	#Rectangle_2_fe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 69px;
+	}
+	#Rectangle_2_ff {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ff {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 69px;
+	}
+	#Rectangle_2_fg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 69px;
+	}
+	#Rectangle_2_fh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 69px;
+	}
+	#Rectangle_2_fi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 69px;
+	}
+	#Rectangle_2_fj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 69px;
+	}
+	#Rectangle_2_fk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 69px;
+	}
+	#Rectangle_2_fl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 69px;
+	}
+	#Rectangle_2_fm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 69px;
+	}
+	#Rectangle_2_fn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 69px;
+	}
+	#Rectangle_2_fo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 69px;
+	}
+	#Rectangle_2_fp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 69px;
+	}
+	#Rectangle_2_fq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 69px;
+	}
+	#Rectangle_2_fr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 69px;
+	}
+	#Rectangle_2_fs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 69px;
+	}
+	#Rectangle_2_ft {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ft {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 69px;
+	}
+	#Rectangle_2_fu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 69px;
+	}
+	#Rectangle_2_fv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 69px;
+	}
+	#Rectangle_2_fw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 69px;
+	}
+	#Rectangle_2_fx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 92px;
+	}
+	#Rectangle_2_fy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 92px;
+	}
+	#Rectangle_2_fz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_fz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 92px;
+	}
+	#Rectangle_2_f {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_f {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 92px;
+	}
+	#Rectangle_2_ga {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ga {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 92px;
+	}
+	#Rectangle_2_gb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 92px;
+	}
+	#Rectangle_2_gc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 92px;
+	}
+	#Rectangle_2_gd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 92px;
+	}
+	#Rectangle_2_ge {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ge {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 92px;
+	}
+	#Rectangle_2_gf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 92px;
+	}
+	#Rectangle_2_gg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 92px;
+	}
+	#Rectangle_2_gh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 92px;
+	}
+	#Rectangle_2_gi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 92px;
+	}
+	#Rectangle_2_gj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 92px;
+	}
+	#Rectangle_2_gk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 92px;
+	}
+	#Rectangle_2_gl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 92px;
+	}
+	#Rectangle_2_gm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 92px;
+	}
+	#Rectangle_2_gn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 92px;
+	}
+	#Rectangle_2_go {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_go {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 92px;
+	}
+	#Rectangle_2_gp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 92px;
+	}
+	#Rectangle_2_gq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 92px;
+	}
+	#Rectangle_2_gr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 92px;
+	}
+	#Rectangle_2_gs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 92px;
+	}
+	#Rectangle_2_gt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 92px;
+	}
+	#Rectangle_2_gu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 92px;
+	}
+	#Rectangle_2_gv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 92px;
+	}
+	#Rectangle_2_gw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 115px;
+	}
+	#Rectangle_2_gx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 115px;
+	}
+	#Rectangle_2_gy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 115px;
+	}
+	#Rectangle_2_gz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_gz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 115px;
+	}
+	#Rectangle_2_g {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_g {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 115px;
+	}
+	#Rectangle_2_ha {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ha {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 115px;
+	}
+	#Rectangle_2_hb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 115px;
+	}
+	#Rectangle_2_hc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 115px;
+	}
+	#Rectangle_2_hd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 115px;
+	}
+	#Rectangle_2_he {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_he {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 115px;
+	}
+	#Rectangle_2_hf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 115px;
+	}
+	#Rectangle_2_hg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 115px;
+	}
+	#Rectangle_2_hh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 115px;
+	}
+	#Rectangle_2_hi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 115px;
+	}
+	#Rectangle_2_hj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 115px;
+	}
+	#Rectangle_2_hk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 115px;
+	}
+	#Rectangle_2_hl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 115px;
+	}
+	#Rectangle_2_hm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 115px;
+	}
+	#Rectangle_2_hn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 115px;
+	}
+	#Rectangle_2_ho {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ho {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 115px;
+	}
+	#Rectangle_2_hp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 115px;
+	}
+	#Rectangle_2_hq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 115px;
+	}
+	#Rectangle_2_hr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 115px;
+	}
+	#Rectangle_2_hs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 115px;
+	}
+	#Rectangle_2_ht {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ht {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 115px;
+	}
+	#Rectangle_2_hu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 115px;
+	}
+	#Rectangle_2_hv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 138px;
+	}
+	#Rectangle_2_hw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 138px;
+	}
+	#Rectangle_2_hx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 138px;
+	}
+	#Rectangle_2_hy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 138px;
+	}
+	#Rectangle_2_hz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_hz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 138px;
+	}
+	#Rectangle_2_h {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_h {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 138px;
+	}
+	#Rectangle_2_ia {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ia {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 138px;
+	}
+	#Rectangle_2_ib {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ib {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 138px;
+	}
+	#Rectangle_2_ic {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ic {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 138px;
+	}
+	#Rectangle_2_id {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_id {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 138px;
+	}
+	#Rectangle_2_ie {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ie {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 138px;
+	}
+	#Rectangle_2_if {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_if {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 138px;
+	}
+	#Rectangle_2_ig {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ig {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 138px;
+	}
+	#Rectangle_2_ih {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ih {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 138px;
+	}
+	#Rectangle_2_ii {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ii {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 138px;
+	}
+	#Rectangle_2_ij {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ij {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 138px;
+	}
+	#Rectangle_2_ik {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ik {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 138px;
+	}
+	#Rectangle_2_il {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_il {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 138px;
+	}
+	#Rectangle_2_im {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_im {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 138px;
+	}
+	#Rectangle_2_in {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_in {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 138px;
+	}
+	#Rectangle_2_io {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_io {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 138px;
+	}
+	#Rectangle_2_ip {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ip {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 138px;
+	}
+	#Rectangle_2_iq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 138px;
+	}
+	#Rectangle_2_ir {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ir {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 138px;
+	}
+	#Rectangle_2_is {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_is {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 138px;
+	}
+	#Rectangle_2_it {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_it {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 138px;
+	}
+	#Rectangle_2_iu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 161px;
+	}
+	#Rectangle_2_iv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 161px;
+	}
+	#Rectangle_2_iw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 161px;
+	}
+	#Rectangle_2_ix {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ix {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 161px;
+	}
+	#Rectangle_2_iy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 161px;
+	}
+	#Rectangle_2_iz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_iz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 161px;
+	}
+	#Rectangle_2_i {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_i {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 161px;
+	}
+	#Rectangle_2_ja {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ja {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 161px;
+	}
+	#Rectangle_2_jb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 161px;
+	}
+	#Rectangle_2_jc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 161px;
+	}
+	#Rectangle_2_jd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 161px;
+	}
+	#Rectangle_2_je {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_je {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 161px;
+	}
+	#Rectangle_2_jf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 161px;
+	}
+	#Rectangle_2_jg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 161px;
+	}
+	#Rectangle_2_jh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 161px;
+	}
+	#Rectangle_2_ji {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ji {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 161px;
+	}
+	#Rectangle_2_jj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 161px;
+	}
+	#Rectangle_2_jk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 161px;
+	}
+	#Rectangle_2_jl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 161px;
+	}
+	#Rectangle_2_jm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 161px;
+	}
+	#Rectangle_2_jn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 161px;
+	}
+	#Rectangle_2_jo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 161px;
+	}
+	#Rectangle_2_jp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 161px;
+	}
+	#Rectangle_2_jq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 161px;
+	}
+	#Rectangle_2_jr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 161px;
+	}
+	#Rectangle_2_js {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_js {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 161px;
+	}
+	#Rectangle_2_jt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 184px;
+	}
+	#Rectangle_2_ju {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ju {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 184px;
+	}
+	#Rectangle_2_jv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 184px;
+	}
+	#Rectangle_2_jw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 184px;
+	}
+	#Rectangle_2_jx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 184px;
+	}
+	#Rectangle_2_jy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 184px;
+	}
+	#Rectangle_2_jz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_jz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 184px;
+	}
+	#Rectangle_2_j {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_j {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 184px;
+	}
+	#Rectangle_2_ka {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ka {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 184px;
+	}
+	#Rectangle_2_kb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 184px;
+	}
+	#Rectangle_2_kc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 184px;
+	}
+	#Rectangle_2_kd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 184px;
+	}
+	#Rectangle_2_ke {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ke {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 184px;
+	}
+	#Rectangle_2_kf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 184px;
+	}
+	#Rectangle_2_kg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 184px;
+	}
+	#Rectangle_2_kh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 184px;
+	}
+	#Rectangle_2_ki {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ki {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 184px;
+	}
+	#Rectangle_2_kj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 184px;
+	}
+	#Rectangle_2_kk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 184px;
+	}
+	#Rectangle_2_kl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 184px;
+	}
+	#Rectangle_2_km {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_km {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 184px;
+	}
+	#Rectangle_2_kn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 184px;
+	}
+	#Rectangle_2_ko {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ko {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 184px;
+	}
+	#Rectangle_2_kp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 184px;
+	}
+	#Rectangle_2_kq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 184px;
+	}
+	#Rectangle_2_kr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 184px;
+	}
+	#Rectangle_2_ks {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ks {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 207px;
+	}
+	#Rectangle_2_kt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 207px;
+	}
+	#Rectangle_2_ku {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ku {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 207px;
+	}
+	#Rectangle_2_kv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 207px;
+	}
+	#Rectangle_2_kw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 207px;
+	}
+	#Rectangle_2_kx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 207px;
+	}
+	#Rectangle_2_ky {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ky {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 207px;
+	}
+	#Rectangle_2_kz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_kz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 207px;
+	}
+	#Rectangle_2_k {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_k {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 207px;
+	}
+	#Rectangle_2_la {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_la {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 207px;
+	}
+	#Rectangle_2_lb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 207px;
+	}
+	#Rectangle_2_lc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 207px;
+	}
+	#Rectangle_2_ld {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ld {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 207px;
+	}
+	#Rectangle_2_le {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_le {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 207px;
+	}
+	#Rectangle_2_lf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 207px;
+	}
+	#Rectangle_2_lg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 207px;
+	}
+	#Rectangle_2_lh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 207px;
+	}
+	#Rectangle_2_li {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_li {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 207px;
+	}
+	#Rectangle_2_lj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 207px;
+	}
+	#Rectangle_2_lk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 207px;
+	}
+	#Rectangle_2_ll {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ll {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 207px;
+	}
+	#Rectangle_2_lm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 207px;
+	}
+	#Rectangle_2_ln {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ln {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 207px;
+	}
+	#Rectangle_2_lo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 207px;
+	}
+	#Rectangle_2_lp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 207px;
+	}
+	#Rectangle_2_lq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 207px;
+	}
+	#Group_29 {
+		position: absolute;
+		width: 115px;
+		height: 109px;
+		left: 1360px;
+		top: 123px;
+		overflow: visible;
+		padding: 0px;
+	}
+	#Ellipse_1_jj {
+		opacity: 0.39;
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1_jj {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 109px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sample_User_Icon {
+		opacity: 0.69;
+		position: absolute;
+		width: 111px;
+		height: 111px;
+		left: 1364px;
+		top: 117px;
+		overflow: visible;
+	}
+	#scott-webb-57628-unsplash {
+		opacity: 0.24;
+		position: absolute;
+		width: 960px;
+		height: 1280px;
+		left: -7px;
+		top: -100px;
+		overflow: visible;
+	}
+}
+@media (min-width: 1366px) and (max-width: 1919px) {
+	.mediaViewInfo {
+		--web-view-name: Login (medium);
+		--web-view-id: Login_medium;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login_medium {
+		position: absolute;
+		display: block;
+		width: 1366px;
+		height: 768px;
+		background-color: rgba(13,2,2,1);
+		overflow: hidden;
+		--web-view-name: Login (medium);
+		--web-view-id: Login_medium;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Please_log_in_or_sign_up_for_a_jo {
+		left: 628.149px;
+		top: 196.823px;
+		position: absolute;
+		overflow: visible;
+		width: 721px;
+		height: 60px;
+		line-height: 22px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#forminput_jp {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 858.149px;
+		top: 245.753px;
+		overflow: visible;
+	}
+	#Username_jq {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.871);
+	}
+	#Rectangle_315_jr {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315_jr {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#forminput_js {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 858.149px;
+		top: 321.376px;
+		overflow: visible;
+	}
+	#Password_jt {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.6);
+	}
+	#Rectangle_315_ju {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315_ju {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#formcheckboxunchecked_jv {
+		position: absolute;
+		width: 116px;
+		height: 17px;
+		left: 872.649px;
+		top: 397px;
+		overflow: visible;
+	}
+	#Remember_me_jw {
+		left: 27px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,0.8);
+	}
+	#Group_510_jx {
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_133_jy {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(212,212,213,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_133_jy {
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	#Forgot_password_jz {
+		left: 1010.987px;
+		top: 397px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		line-height: 16px;
+		margin-top: -1px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(33,133,208,1);
+		text-decoration: underline;
+	}
+	#buttonprimary_j {
+		position: absolute;
+		width: 86px;
+		height: 38px;
+		left: 887.649px;
+		top: 448.453px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_451_j {
+		fill: rgba(134,230,133,1);
+	}
+	.Rectangle_451_j {
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Log_in_j {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#buttonsecondary_j {
+		position: absolute;
+		width: 96px;
+		height: 38px;
+		left: 1010.987px;
+		top: 448.453px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_27_j {
+		fill: rgba(38,128,235,1);
+	}
+	.Rectangle_27_j {
+		position: absolute;
+		overflow: visible;
+		width: 96px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sign_Up_j {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_24_j {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1318px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_3_j {
+		opacity: 0.06;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_j {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_1_j {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_25_j {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1318px;
+		top: 138px;
+		overflow: visible;
+	}
+	#Rectangle_3_ka {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_ka {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_kb {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_26_kc {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1318px;
+		top: 276px;
+		overflow: visible;
+	}
+	#Rectangle_3_kd {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_kd {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_3_ke {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_27_kf {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1318px;
+		top: 414px;
+		overflow: visible;
+	}
+	#Rectangle_3_kg {
+		opacity: 0.12;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_kg {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_4_kh {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_28_ki {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1318px;
+		top: 552px;
+		overflow: visible;
+	}
+	#Rectangle_3_kj {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_kj {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_5_kk {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_5_kl {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 1205px;
+		top: 651px;
+		overflow: visible;
+	}
+	#Ellipse_1_km {
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1_km {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_kn {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 20.041px;
+		top: 20.994px;
+		overflow: visible;
+	}
+	#Path_4_ko {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4_ko {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0px;
+		top: 9.191px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5_kp {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5_kp {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 11.438px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_6_kq {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 1120px;
+		top: 651px;
+		overflow: visible;
+	}
+	#Ellipse_1_kr {
+		fill: rgba(230,230,232,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1_kr {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_ks {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 19.453px;
+		top: 20.943px;
+		overflow: visible;
+	}
+	#Path_4_kt {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4_kt {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0.381px;
+		top: 9.191px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5_ku {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5_ku {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_2_kv {
+		opacity: 0.39;
+		position: absolute;
+		width: 578px;
+		height: 210px;
+		left: 184px;
+		top: 6px;
+		overflow: visible;
+	}
+	#Rectangle_2_lr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_2_ls {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ls {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 0px;
+	}
+	#Rectangle_2_lt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 0px;
+	}
+	#Rectangle_2_lu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 0px;
+	}
+	#Rectangle_2_lv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 0px;
+	}
+	#Rectangle_2_lw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 0px;
+	}
+	#Rectangle_2_lx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 0px;
+	}
+	#Rectangle_2_ly {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ly {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 0px;
+	}
+	#Rectangle_2_lz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_lz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 0px;
+	}
+	#Rectangle_2_l {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_l {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 0px;
+	}
+	#Rectangle_2_ma {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ma {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 0px;
+	}
+	#Rectangle_2_mb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 0px;
+	}
+	#Rectangle_2_mc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 0px;
+	}
+	#Rectangle_2_md {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_md {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 0px;
+	}
+	#Rectangle_2_me {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_me {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 0px;
+	}
+	#Rectangle_2_mf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 0px;
+	}
+	#Rectangle_2_mg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 0px;
+	}
+	#Rectangle_2_mh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 0px;
+	}
+	#Rectangle_2_mi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 0px;
+	}
+	#Rectangle_2_mj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 0px;
+	}
+	#Rectangle_2_mk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 0px;
+	}
+	#Rectangle_2_ml {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ml {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 0px;
+	}
+	#Rectangle_2_mm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 0px;
+	}
+	#Rectangle_2_mn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 0px;
+	}
+	#Rectangle_2_mo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 0px;
+	}
+	#Rectangle_2_mp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 0px;
+	}
+	#Rectangle_2_mq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 23px;
+	}
+	#Rectangle_2_mr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 23px;
+	}
+	#Rectangle_2_ms {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ms {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 23px;
+	}
+	#Rectangle_2_mt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 23px;
+	}
+	#Rectangle_2_mu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 23px;
+	}
+	#Rectangle_2_mv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 23px;
+	}
+	#Rectangle_2_mw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 23px;
+	}
+	#Rectangle_2_mx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 23px;
+	}
+	#Rectangle_2_my {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_my {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 23px;
+	}
+	#Rectangle_2_mz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_mz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 23px;
+	}
+	#Rectangle_2_m {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_m {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 23px;
+	}
+	#Rectangle_2_na {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_na {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 23px;
+	}
+	#Rectangle_2_nb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 23px;
+	}
+	#Rectangle_2_nc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 23px;
+	}
+	#Rectangle_2_nd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 23px;
+	}
+	#Rectangle_2_ne {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ne {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 23px;
+	}
+	#Rectangle_2_nf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 23px;
+	}
+	#Rectangle_2_ng {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ng {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 23px;
+	}
+	#Rectangle_2_nh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 23px;
+	}
+	#Rectangle_2_ni {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ni {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 23px;
+	}
+	#Rectangle_2_nj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 23px;
+	}
+	#Rectangle_2_nk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 23px;
+	}
+	#Rectangle_2_nl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 23px;
+	}
+	#Rectangle_2_nm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 23px;
+	}
+	#Rectangle_2_nn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 23px;
+	}
+	#Rectangle_2_no {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_no {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 23px;
+	}
+	#Rectangle_2_np {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_np {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 46px;
+	}
+	#Rectangle_2_nq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 46px;
+	}
+	#Rectangle_2_nr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 46px;
+	}
+	#Rectangle_2_ns {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ns {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 46px;
+	}
+	#Rectangle_2_nt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 46px;
+	}
+	#Rectangle_2_nu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 46px;
+	}
+	#Rectangle_2_nv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 46px;
+	}
+	#Rectangle_2_nw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 46px;
+	}
+	#Rectangle_2_nx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 46px;
+	}
+	#Rectangle_2_ny {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ny {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 46px;
+	}
+	#Rectangle_2_nz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_nz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 46px;
+	}
+	#Rectangle_2_n {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_n {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 46px;
+	}
+	#Rectangle_2_oa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 46px;
+	}
+	#Rectangle_2_ob {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ob {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 46px;
+	}
+	#Rectangle_2_oc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 46px;
+	}
+	#Rectangle_2_od {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_od {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 46px;
+	}
+	#Rectangle_2_oe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 46px;
+	}
+	#Rectangle_2_of {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_of {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 46px;
+	}
+	#Rectangle_2_og {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_og {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 46px;
+	}
+	#Rectangle_2_oh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 46px;
+	}
+	#Rectangle_2_oi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 46px;
+	}
+	#Rectangle_2_oj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 46px;
+	}
+	#Rectangle_2_ok {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ok {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 46px;
+	}
+	#Rectangle_2_ol {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ol {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 46px;
+	}
+	#Rectangle_2_om {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_om {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 46px;
+	}
+	#Rectangle_2_on {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_on {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 46px;
+	}
+	#Rectangle_2_oo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 69px;
+	}
+	#Rectangle_2_op {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_op {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 69px;
+	}
+	#Rectangle_2_oq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 69px;
+	}
+	#Rectangle_2_or {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_or {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 69px;
+	}
+	#Rectangle_2_os {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_os {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 69px;
+	}
+	#Rectangle_2_ot {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ot {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 69px;
+	}
+	#Rectangle_2_ou {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ou {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 69px;
+	}
+	#Rectangle_2_ov {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ov {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 69px;
+	}
+	#Rectangle_2_ow {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ow {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 69px;
+	}
+	#Rectangle_2_ox {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ox {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 69px;
+	}
+	#Rectangle_2_oy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 69px;
+	}
+	#Rectangle_2_oz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_oz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 69px;
+	}
+	#Rectangle_2_o {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_o {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 69px;
+	}
+	#Rectangle_2_pa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 69px;
+	}
+	#Rectangle_2_pb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 69px;
+	}
+	#Rectangle_2_pc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 69px;
+	}
+	#Rectangle_2_pd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 69px;
+	}
+	#Rectangle_2_pe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 69px;
+	}
+	#Rectangle_2_pf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 69px;
+	}
+	#Rectangle_2_pg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 69px;
+	}
+	#Rectangle_2_ph {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ph {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 69px;
+	}
+	#Rectangle_2_pi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 69px;
+	}
+	#Rectangle_2_pj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 69px;
+	}
+	#Rectangle_2_pk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 69px;
+	}
+	#Rectangle_2_pl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 69px;
+	}
+	#Rectangle_2_pm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 69px;
+	}
+	#Rectangle_2_pn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 92px;
+	}
+	#Rectangle_2_po {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_po {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 92px;
+	}
+	#Rectangle_2_pp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 92px;
+	}
+	#Rectangle_2_pq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 92px;
+	}
+	#Rectangle_2_pr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 92px;
+	}
+	#Rectangle_2_ps {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ps {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 92px;
+	}
+	#Rectangle_2_pt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 92px;
+	}
+	#Rectangle_2_pu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 92px;
+	}
+	#Rectangle_2_pv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 92px;
+	}
+	#Rectangle_2_pw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 92px;
+	}
+	#Rectangle_2_px {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_px {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 92px;
+	}
+	#Rectangle_2_py {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_py {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 92px;
+	}
+	#Rectangle_2_pz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_pz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 92px;
+	}
+	#Rectangle_2_p {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_p {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 92px;
+	}
+	#Rectangle_2_qa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 92px;
+	}
+	#Rectangle_2_qb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 92px;
+	}
+	#Rectangle_2_qc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 92px;
+	}
+	#Rectangle_2_qd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 92px;
+	}
+	#Rectangle_2_qe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 92px;
+	}
+	#Rectangle_2_qf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 92px;
+	}
+	#Rectangle_2_qg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 92px;
+	}
+	#Rectangle_2_qh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 92px;
+	}
+	#Rectangle_2_qi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 92px;
+	}
+	#Rectangle_2_qj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 92px;
+	}
+	#Rectangle_2_qk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 92px;
+	}
+	#Rectangle_2_ql {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ql {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 92px;
+	}
+	#Rectangle_2_qm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 115px;
+	}
+	#Rectangle_2_qn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 115px;
+	}
+	#Rectangle_2_qo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 115px;
+	}
+	#Rectangle_2_qp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 115px;
+	}
+	#Rectangle_2_qq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 115px;
+	}
+	#Rectangle_2_qr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 115px;
+	}
+	#Rectangle_2_qs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 115px;
+	}
+	#Rectangle_2_qt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 115px;
+	}
+	#Rectangle_2_qu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 115px;
+	}
+	#Rectangle_2_qv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 115px;
+	}
+	#Rectangle_2_qw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 115px;
+	}
+	#Rectangle_2_qx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 115px;
+	}
+	#Rectangle_2_qy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 115px;
+	}
+	#Rectangle_2_qz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_qz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 115px;
+	}
+	#Rectangle_2_q {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_q {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 115px;
+	}
+	#Rectangle_2_ra {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ra {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 115px;
+	}
+	#Rectangle_2_rb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 115px;
+	}
+	#Rectangle_2_rc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 115px;
+	}
+	#Rectangle_2_rd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 115px;
+	}
+	#Rectangle_2_re {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_re {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 115px;
+	}
+	#Rectangle_2_rf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 115px;
+	}
+	#Rectangle_2_rg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 115px;
+	}
+	#Rectangle_2_rh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 115px;
+	}
+	#Rectangle_2_ri {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ri {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 115px;
+	}
+	#Rectangle_2_rj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 115px;
+	}
+	#Rectangle_2_rk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 115px;
+	}
+	#Rectangle_2_rl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 138px;
+	}
+	#Rectangle_2_rm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 138px;
+	}
+	#Rectangle_2_rn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 138px;
+	}
+	#Rectangle_2_ro {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ro {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 138px;
+	}
+	#Rectangle_2_rp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 138px;
+	}
+	#Rectangle_2_rq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 138px;
+	}
+	#Rectangle_2_rr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 138px;
+	}
+	#Rectangle_2_rs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 138px;
+	}
+	#Rectangle_2_rt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 138px;
+	}
+	#Rectangle_2_ru {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ru {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 138px;
+	}
+	#Rectangle_2_rv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 138px;
+	}
+	#Rectangle_2_rw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 138px;
+	}
+	#Rectangle_2_rx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 138px;
+	}
+	#Rectangle_2_ry {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ry {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 138px;
+	}
+	#Rectangle_2_rz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_rz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 138px;
+	}
+	#Rectangle_2_r {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_r {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 138px;
+	}
+	#Rectangle_2_sa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 138px;
+	}
+	#Rectangle_2_sb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 138px;
+	}
+	#Rectangle_2_sc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 138px;
+	}
+	#Rectangle_2_sd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 138px;
+	}
+	#Rectangle_2_se {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_se {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 138px;
+	}
+	#Rectangle_2_sf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 138px;
+	}
+	#Rectangle_2_sg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 138px;
+	}
+	#Rectangle_2_sh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 138px;
+	}
+	#Rectangle_2_si {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_si {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 138px;
+	}
+	#Rectangle_2_sj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 138px;
+	}
+	#Rectangle_2_sk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 161px;
+	}
+	#Rectangle_2_sl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 161px;
+	}
+	#Rectangle_2_sm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 161px;
+	}
+	#Rectangle_2_sn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 161px;
+	}
+	#Rectangle_2_so {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_so {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 161px;
+	}
+	#Rectangle_2_sp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 161px;
+	}
+	#Rectangle_2_sq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 161px;
+	}
+	#Rectangle_2_sr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 161px;
+	}
+	#Rectangle_2_ss {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ss {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 161px;
+	}
+	#Rectangle_2_st {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_st {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 161px;
+	}
+	#Rectangle_2_su {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_su {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 161px;
+	}
+	#Rectangle_2_sv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 161px;
+	}
+	#Rectangle_2_sw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 161px;
+	}
+	#Rectangle_2_sx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 161px;
+	}
+	#Rectangle_2_sy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 161px;
+	}
+	#Rectangle_2_sz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_sz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 161px;
+	}
+	#Rectangle_2_s {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_s {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 161px;
+	}
+	#Rectangle_2_ta {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ta {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 161px;
+	}
+	#Rectangle_2_tb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 161px;
+	}
+	#Rectangle_2_tc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 161px;
+	}
+	#Rectangle_2_td {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_td {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 161px;
+	}
+	#Rectangle_2_te {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_te {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 161px;
+	}
+	#Rectangle_2_tf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 161px;
+	}
+	#Rectangle_2_tg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 161px;
+	}
+	#Rectangle_2_th {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_th {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 161px;
+	}
+	#Rectangle_2_ti {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ti {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 161px;
+	}
+	#Rectangle_2_tj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 184px;
+	}
+	#Rectangle_2_tk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 184px;
+	}
+	#Rectangle_2_tl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 184px;
+	}
+	#Rectangle_2_tm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 184px;
+	}
+	#Rectangle_2_tn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 184px;
+	}
+	#Rectangle_2_to {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_to {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 184px;
+	}
+	#Rectangle_2_tp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 184px;
+	}
+	#Rectangle_2_tq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 184px;
+	}
+	#Rectangle_2_tr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 184px;
+	}
+	#Rectangle_2_ts {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ts {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 184px;
+	}
+	#Rectangle_2_tt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 184px;
+	}
+	#Rectangle_2_tu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 184px;
+	}
+	#Rectangle_2_tv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 184px;
+	}
+	#Rectangle_2_tw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 184px;
+	}
+	#Rectangle_2_tx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 184px;
+	}
+	#Rectangle_2_ty {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ty {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 184px;
+	}
+	#Rectangle_2_tz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_tz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 184px;
+	}
+	#Rectangle_2_t {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_t {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 184px;
+	}
+	#Rectangle_2_ua {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ua {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 184px;
+	}
+	#Rectangle_2_ub {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ub {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 184px;
+	}
+	#Rectangle_2_uc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 184px;
+	}
+	#Rectangle_2_ud {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ud {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 184px;
+	}
+	#Rectangle_2_ue {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ue {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 184px;
+	}
+	#Rectangle_2_uf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 184px;
+	}
+	#Rectangle_2_ug {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ug {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 184px;
+	}
+	#Rectangle_2_uh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 184px;
+	}
+	#Rectangle_2_ui {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ui {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 207px;
+	}
+	#Rectangle_2_uj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 207px;
+	}
+	#Rectangle_2_uk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 207px;
+	}
+	#Rectangle_2_ul {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ul {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 207px;
+	}
+	#Rectangle_2_um {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_um {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 207px;
+	}
+	#Rectangle_2_un {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_un {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 207px;
+	}
+	#Rectangle_2_uo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 207px;
+	}
+	#Rectangle_2_up {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_up {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 207px;
+	}
+	#Rectangle_2_uq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 207px;
+	}
+	#Rectangle_2_ur {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ur {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 207px;
+	}
+	#Rectangle_2_us {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_us {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 207px;
+	}
+	#Rectangle_2_ut {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ut {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 207px;
+	}
+	#Rectangle_2_uu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 207px;
+	}
+	#Rectangle_2_uv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 207px;
+	}
+	#Rectangle_2_uw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 207px;
+	}
+	#Rectangle_2_ux {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ux {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 207px;
+	}
+	#Rectangle_2_uy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 207px;
+	}
+	#Rectangle_2_uz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_uz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 207px;
+	}
+	#Rectangle_2_u {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_u {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 207px;
+	}
+	#Rectangle_2_va {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_va {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 207px;
+	}
+	#Rectangle_2_vb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 207px;
+	}
+	#Rectangle_2_vc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 207px;
+	}
+	#Rectangle_2_vd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 207px;
+	}
+	#Rectangle_2_ve {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ve {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 207px;
+	}
+	#Rectangle_2_vf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 207px;
+	}
+	#Rectangle_2_vg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 207px;
+	}
+	#Group_3010 {
+		position: absolute;
+		width: 115px;
+		height: 111px;
+		left: 930.649px;
+		top: 64.5px;
+		overflow: visible;
+	}
+	#Group_29_r {
+		position: absolute;
+		width: 115px;
+		height: 109px;
+		left: 0px;
+		top: 1px;
+		overflow: visible;
+		padding: 0px;
+	}
+	#Ellipse_1_r {
+		opacity: 0.39;
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1_r {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 109px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sample_User_Icon_r {
+		opacity: 0.69;
+		position: absolute;
+		width: 111px;
+		height: 111px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#scott-webb-57628-unsplash_r {
+		opacity: 0.24;
+		position: absolute;
+		width: 762px;
+		height: 768px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) and (max-width: 1365px) {
+	.mediaViewInfo {
+		--web-view-name: Login (small);
+		--web-view-id: Login_small;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login_small {
+		position: absolute;
+		display: block;
+		width: 1280px;
+		height: 800px;
+		background-color: rgba(13,2,2,1);
+		overflow: hidden;
+		--web-view-name: Login (small);
+		--web-view-id: Login_small;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	#Please_log_in_or_sign_up_for_a_sb {
+		left: 630px;
+		top: 196.86px;
+		position: absolute;
+		overflow: visible;
+		width: 721px;
+		height: 60px;
+		line-height: 22px;
+		margin-top: -3px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(255,255,255,1);
+	}
+	#forminput_sc {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 861.422px;
+		top: 256.86px;
+		overflow: visible;
+	}
+	#Username_sd {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.871);
+	}
+	#Rectangle_315_se {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315_se {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#forminput_sf {
+		position: absolute;
+		width: 260px;
+		height: 60px;
+		left: 861.422px;
+		top: 335.902px;
+		overflow: visible;
+	}
+	#Password_sg {
+		left: 2px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 13px;
+		color: rgba(255,255,255,0.6);
+	}
+	#Rectangle_315_sh {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(222,222,223,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_315_sh {
+		position: absolute;
+		overflow: visible;
+		width: 260px;
+		height: 38px;
+		left: 0px;
+		top: 22px;
+	}
+	#formcheckboxunchecked_si {
+		position: absolute;
+		width: 116px;
+		height: 17px;
+		left: 882.611px;
+		top: 413.916px;
+		overflow: visible;
+	}
+	#Remember_me_sj {
+		left: 27px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 90px;
+		white-space: nowrap;
+		line-height: 24px;
+		margin-top: -5px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(255,255,255,0.8);
+	}
+	#Group_510_sk {
+		position: absolute;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_133_sl {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(212,212,213,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_133_sl {
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	#Forgot_password_sm {
+		left: 1012.201px;
+		top: 413.916px;
+		position: absolute;
+		overflow: visible;
+		width: 103px;
+		white-space: nowrap;
+		line-height: 16px;
+		margin-top: -1px;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		color: rgba(33,133,208,1);
+		text-decoration: underline;
+	}
+	#buttonprimary_sn {
+		position: absolute;
+		width: 86px;
+		height: 38px;
+		left: 898.01px;
+		top: 468.111px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_451_so {
+		fill: rgba(134,230,133,1);
+	}
+	.Rectangle_451_so {
+		position: absolute;
+		overflow: visible;
+		width: 86px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Log_in_sp {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 39px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#buttonsecondary_sq {
+		position: absolute;
+		width: 96px;
+		height: 38px;
+		left: 1012.526px;
+		top: 468.111px;
+		overflow: visible;
+		padding: 9px 24px 12px 24px;
+	}
+	#Rectangle_27_sr {
+		fill: rgba(38,128,235,1);
+	}
+	.Rectangle_27_sr {
+		position: absolute;
+		overflow: visible;
+		width: 96px;
+		height: 38px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sign_Up_ss {
+		left: 24px;
+		top: 9px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(255,255,255,1);
+	}
+	#Group_24_st {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1232px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_3_su {
+		opacity: 0.06;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_su {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_1_sv {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_25_sw {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1232px;
+		top: 146px;
+		overflow: visible;
+	}
+	#Rectangle_3_sx {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_sx {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_2_sy {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_26_sz {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1232px;
+		top: 292px;
+		overflow: visible;
+	}
+	#Rectangle_3_s {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_s {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_3_s {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_27_s {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1232px;
+		top: 438px;
+		overflow: visible;
+	}
+	#Rectangle_3_ta {
+		opacity: 0.12;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_ta {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_4_s {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_28_s {
+		position: absolute;
+		width: 48px;
+		height: 216px;
+		left: 1232px;
+		top: 584px;
+		overflow: visible;
+	}
+	#Rectangle_3_tb {
+		opacity: 0.059;
+		fill: rgba(0,0,0,1);
+	}
+	.Rectangle_3_tb {
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		height: 216px;
+		left: 0px;
+		top: 0px;
+	}
+	#n_5_s {
+		left: 15px;
+		top: 101px;
+		position: absolute;
+		overflow: visible;
+		width: 19px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		color: rgba(54,53,53,1);
+	}
+	#Group_5_s {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 1119px;
+		top: 683px;
+		overflow: visible;
+	}
+	#Ellipse_1_s {
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1_s {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_ta {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 20.041px;
+		top: 20.994px;
+		overflow: visible;
+	}
+	#Path_4_tb {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4_tb {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0px;
+		top: 9.192px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5_tc {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5_tc {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 11.438px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_6_td {
+		position: absolute;
+		width: 60px;
+		height: 60px;
+		left: 1034px;
+		top: 683px;
+		overflow: visible;
+	}
+	#Ellipse_1_te {
+		fill: rgba(230,230,232,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Ellipse_1_te {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 60px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_5_tf {
+		position: absolute;
+		width: 20.608px;
+		height: 18.586px;
+		left: 19.453px;
+		top: 20.943px;
+		overflow: visible;
+	}
+	#Path_4_tg {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_4_tg {
+		overflow: visible;
+		position: absolute;
+		width: 20.228px;
+		height: 2px;
+		left: 0.381px;
+		top: 9.192px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_5_th {
+		fill: transparent;
+		stroke: rgba(7,7,7,1);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_5_th {
+		overflow: visible;
+		position: absolute;
+		width: 11.292px;
+		height: 19.991px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_2_ti {
+		opacity: 0.39;
+		position: absolute;
+		width: 578px;
+		height: 210px;
+		left: 184px;
+		top: 6px;
+		overflow: visible;
+	}
+	#Rectangle_2_vh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rectangle_2_vi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 0px;
+	}
+	#Rectangle_2_vj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 0px;
+	}
+	#Rectangle_2_vk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 0px;
+	}
+	#Rectangle_2_vl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 0px;
+	}
+	#Rectangle_2_vm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 0px;
+	}
+	#Rectangle_2_vn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 0px;
+	}
+	#Rectangle_2_vo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 0px;
+	}
+	#Rectangle_2_vp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 0px;
+	}
+	#Rectangle_2_vq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 0px;
+	}
+	#Rectangle_2_vr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 0px;
+	}
+	#Rectangle_2_vs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 0px;
+	}
+	#Rectangle_2_vt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 0px;
+	}
+	#Rectangle_2_vu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 0px;
+	}
+	#Rectangle_2_vv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 0px;
+	}
+	#Rectangle_2_vw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 0px;
+	}
+	#Rectangle_2_vx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 0px;
+	}
+	#Rectangle_2_vy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 0px;
+	}
+	#Rectangle_2_vz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_vz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 0px;
+	}
+	#Rectangle_2_v {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_v {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 0px;
+	}
+	#Rectangle_2_wa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 0px;
+	}
+	#Rectangle_2_wb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 0px;
+	}
+	#Rectangle_2_wc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 0px;
+	}
+	#Rectangle_2_wd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 0px;
+	}
+	#Rectangle_2_we {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_we {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 0px;
+	}
+	#Rectangle_2_wf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 0px;
+	}
+	#Rectangle_2_wg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 23px;
+	}
+	#Rectangle_2_wh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 23px;
+	}
+	#Rectangle_2_wi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 23px;
+	}
+	#Rectangle_2_wj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 23px;
+	}
+	#Rectangle_2_wk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 23px;
+	}
+	#Rectangle_2_wl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 23px;
+	}
+	#Rectangle_2_wm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 23px;
+	}
+	#Rectangle_2_wn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 23px;
+	}
+	#Rectangle_2_wo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 23px;
+	}
+	#Rectangle_2_wp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 23px;
+	}
+	#Rectangle_2_wq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 23px;
+	}
+	#Rectangle_2_wr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 23px;
+	}
+	#Rectangle_2_ws {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ws {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 23px;
+	}
+	#Rectangle_2_wt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 23px;
+	}
+	#Rectangle_2_wu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 23px;
+	}
+	#Rectangle_2_wv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 23px;
+	}
+	#Rectangle_2_ww {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ww {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 23px;
+	}
+	#Rectangle_2_wx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 23px;
+	}
+	#Rectangle_2_wy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 23px;
+	}
+	#Rectangle_2_wz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_wz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 23px;
+	}
+	#Rectangle_2_w {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_w {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 23px;
+	}
+	#Rectangle_2_xa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 23px;
+	}
+	#Rectangle_2_xb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 23px;
+	}
+	#Rectangle_2_xc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 23px;
+	}
+	#Rectangle_2_xd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 23px;
+	}
+	#Rectangle_2_xe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 23px;
+	}
+	#Rectangle_2_xf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 46px;
+	}
+	#Rectangle_2_xg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 46px;
+	}
+	#Rectangle_2_xh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 46px;
+	}
+	#Rectangle_2_xi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 46px;
+	}
+	#Rectangle_2_xj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 46px;
+	}
+	#Rectangle_2_xk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 46px;
+	}
+	#Rectangle_2_xl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 46px;
+	}
+	#Rectangle_2_xm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 46px;
+	}
+	#Rectangle_2_xn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 46px;
+	}
+	#Rectangle_2_xo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 46px;
+	}
+	#Rectangle_2_xp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 46px;
+	}
+	#Rectangle_2_xq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 46px;
+	}
+	#Rectangle_2_xr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 46px;
+	}
+	#Rectangle_2_xs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 46px;
+	}
+	#Rectangle_2_xt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 46px;
+	}
+	#Rectangle_2_xu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 46px;
+	}
+	#Rectangle_2_xv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 46px;
+	}
+	#Rectangle_2_xw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 46px;
+	}
+	#Rectangle_2_xx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 46px;
+	}
+	#Rectangle_2_xy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 46px;
+	}
+	#Rectangle_2_xz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_xz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 46px;
+	}
+	#Rectangle_2_x {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_x {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 46px;
+	}
+	#Rectangle_2_ya {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ya {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 46px;
+	}
+	#Rectangle_2_yb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 46px;
+	}
+	#Rectangle_2_yc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 46px;
+	}
+	#Rectangle_2_yd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 46px;
+	}
+	#Rectangle_2_ye {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ye {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 69px;
+	}
+	#Rectangle_2_yf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 69px;
+	}
+	#Rectangle_2_yg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 69px;
+	}
+	#Rectangle_2_yh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 69px;
+	}
+	#Rectangle_2_yi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 69px;
+	}
+	#Rectangle_2_yj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 69px;
+	}
+	#Rectangle_2_yk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 69px;
+	}
+	#Rectangle_2_yl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 69px;
+	}
+	#Rectangle_2_ym {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ym {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 69px;
+	}
+	#Rectangle_2_yn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 69px;
+	}
+	#Rectangle_2_yo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 69px;
+	}
+	#Rectangle_2_yp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 69px;
+	}
+	#Rectangle_2_yq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 69px;
+	}
+	#Rectangle_2_yr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 69px;
+	}
+	#Rectangle_2_ys {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ys {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 69px;
+	}
+	#Rectangle_2_yt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 69px;
+	}
+	#Rectangle_2_yu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 69px;
+	}
+	#Rectangle_2_yv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 69px;
+	}
+	#Rectangle_2_yw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 69px;
+	}
+	#Rectangle_2_yx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 69px;
+	}
+	#Rectangle_2_yy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 69px;
+	}
+	#Rectangle_2_yz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_yz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 69px;
+	}
+	#Rectangle_2_y {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_y {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 69px;
+	}
+	#Rectangle_2_za {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_za {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 69px;
+	}
+	#Rectangle_2_zb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 69px;
+	}
+	#Rectangle_2_zc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 69px;
+	}
+	#Rectangle_2_zd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 92px;
+	}
+	#Rectangle_2_ze {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ze {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 92px;
+	}
+	#Rectangle_2_zf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 92px;
+	}
+	#Rectangle_2_zg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 92px;
+	}
+	#Rectangle_2_zh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 92px;
+	}
+	#Rectangle_2_zi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 92px;
+	}
+	#Rectangle_2_zj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 92px;
+	}
+	#Rectangle_2_zk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 92px;
+	}
+	#Rectangle_2_zl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 92px;
+	}
+	#Rectangle_2_zm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 92px;
+	}
+	#Rectangle_2_zn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 92px;
+	}
+	#Rectangle_2_zo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 92px;
+	}
+	#Rectangle_2_zp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 92px;
+	}
+	#Rectangle_2_zq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 92px;
+	}
+	#Rectangle_2_zr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 92px;
+	}
+	#Rectangle_2_zs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 92px;
+	}
+	#Rectangle_2_zt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 92px;
+	}
+	#Rectangle_2_zu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 92px;
+	}
+	#Rectangle_2_zv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 92px;
+	}
+	#Rectangle_2_zw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 92px;
+	}
+	#Rectangle_2_zx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 92px;
+	}
+	#Rectangle_2_zy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 92px;
+	}
+	#Rectangle_2_zz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_zz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 92px;
+	}
+	#Rectangle_2_z {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_z {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 92px;
+	}
+	#Rectangle_2_a {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_a {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 92px;
+	}
+	#Rectangle_2_b {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_b {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 92px;
+	}
+	#Rectangle_2_ {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 115px;
+	}
+	#Rectangle_2_baa {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baa {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 115px;
+	}
+	#Rectangle_2_bab {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bab {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 115px;
+	}
+	#Rectangle_2_bac {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bac {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 115px;
+	}
+	#Rectangle_2_bad {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bad {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 115px;
+	}
+	#Rectangle_2_bae {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bae {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 115px;
+	}
+	#Rectangle_2_baf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 115px;
+	}
+	#Rectangle_2_bag {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bag {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 115px;
+	}
+	#Rectangle_2_bah {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bah {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 115px;
+	}
+	#Rectangle_2_bai {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bai {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 115px;
+	}
+	#Rectangle_2_baj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 115px;
+	}
+	#Rectangle_2_bak {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bak {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 115px;
+	}
+	#Rectangle_2_bal {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bal {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 115px;
+	}
+	#Rectangle_2_bam {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bam {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 115px;
+	}
+	#Rectangle_2_ban {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ban {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 115px;
+	}
+	#Rectangle_2_bao {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bao {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 115px;
+	}
+	#Rectangle_2_bap {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bap {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 115px;
+	}
+	#Rectangle_2_baq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 115px;
+	}
+	#Rectangle_2_bar {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bar {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 115px;
+	}
+	#Rectangle_2_bas {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bas {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 115px;
+	}
+	#Rectangle_2_bat {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bat {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 115px;
+	}
+	#Rectangle_2_bau {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bau {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 115px;
+	}
+	#Rectangle_2_bav {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bav {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 115px;
+	}
+	#Rectangle_2_baw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 115px;
+	}
+	#Rectangle_2_bax {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bax {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 115px;
+	}
+	#Rectangle_2_bay {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bay {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 115px;
+	}
+	#Rectangle_2_baz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_baz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 138px;
+	}
+	#Rectangle_2_ba {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ba {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 138px;
+	}
+	#Rectangle_2_bba {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bba {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 138px;
+	}
+	#Rectangle_2_bbb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 138px;
+	}
+	#Rectangle_2_bbc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 138px;
+	}
+	#Rectangle_2_bbd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 138px;
+	}
+	#Rectangle_2_bbe {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbe {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 138px;
+	}
+	#Rectangle_2_bbf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 138px;
+	}
+	#Rectangle_2_bbg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 138px;
+	}
+	#Rectangle_2_bbh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 138px;
+	}
+	#Rectangle_2_bbi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 138px;
+	}
+	#Rectangle_2_bbj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 138px;
+	}
+	#Rectangle_2_bbk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 138px;
+	}
+	#Rectangle_2_bbl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 138px;
+	}
+	#Rectangle_2_bbm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 138px;
+	}
+	#Rectangle_2_bbn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 138px;
+	}
+	#Rectangle_2_bbo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 138px;
+	}
+	#Rectangle_2_bbp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 138px;
+	}
+	#Rectangle_2_bbq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 138px;
+	}
+	#Rectangle_2_bbr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 138px;
+	}
+	#Rectangle_2_bbs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 138px;
+	}
+	#Rectangle_2_bbt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 138px;
+	}
+	#Rectangle_2_bbu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 138px;
+	}
+	#Rectangle_2_bbv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 138px;
+	}
+	#Rectangle_2_bbw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 138px;
+	}
+	#Rectangle_2_bbx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 138px;
+	}
+	#Rectangle_2_bby {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bby {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 161px;
+	}
+	#Rectangle_2_bbz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bbz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 161px;
+	}
+	#Rectangle_2_bb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 161px;
+	}
+	#Rectangle_2_bca {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bca {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 161px;
+	}
+	#Rectangle_2_bcb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 161px;
+	}
+	#Rectangle_2_bcc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 161px;
+	}
+	#Rectangle_2_bcd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 161px;
+	}
+	#Rectangle_2_bce {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bce {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 161px;
+	}
+	#Rectangle_2_bcf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 161px;
+	}
+	#Rectangle_2_bcg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 161px;
+	}
+	#Rectangle_2_bch {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bch {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 161px;
+	}
+	#Rectangle_2_bci {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bci {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 161px;
+	}
+	#Rectangle_2_bcj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 161px;
+	}
+	#Rectangle_2_bck {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bck {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 161px;
+	}
+	#Rectangle_2_bcl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 161px;
+	}
+	#Rectangle_2_bcm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 161px;
+	}
+	#Rectangle_2_bcn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 161px;
+	}
+	#Rectangle_2_bco {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bco {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 161px;
+	}
+	#Rectangle_2_bcp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 161px;
+	}
+	#Rectangle_2_bcq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 161px;
+	}
+	#Rectangle_2_bcr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 161px;
+	}
+	#Rectangle_2_bcs {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcs {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 161px;
+	}
+	#Rectangle_2_bct {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bct {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 161px;
+	}
+	#Rectangle_2_bcu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 161px;
+	}
+	#Rectangle_2_bcv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 161px;
+	}
+	#Rectangle_2_bcw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 161px;
+	}
+	#Rectangle_2_bcx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 184px;
+	}
+	#Rectangle_2_bcy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 184px;
+	}
+	#Rectangle_2_bcz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bcz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 184px;
+	}
+	#Rectangle_2_bc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 184px;
+	}
+	#Rectangle_2_bda {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bda {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 184px;
+	}
+	#Rectangle_2_bdb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 184px;
+	}
+	#Rectangle_2_bdc {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdc {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 184px;
+	}
+	#Rectangle_2_bdd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 184px;
+	}
+	#Rectangle_2_bde {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bde {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 184px;
+	}
+	#Rectangle_2_bdf {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdf {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 184px;
+	}
+	#Rectangle_2_bdg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 184px;
+	}
+	#Rectangle_2_bdh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 184px;
+	}
+	#Rectangle_2_bdi {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdi {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 184px;
+	}
+	#Rectangle_2_bdj {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdj {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 184px;
+	}
+	#Rectangle_2_bdk {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdk {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 184px;
+	}
+	#Rectangle_2_bdl {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdl {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 184px;
+	}
+	#Rectangle_2_bdm {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdm {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 184px;
+	}
+	#Rectangle_2_bdn {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdn {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 184px;
+	}
+	#Rectangle_2_bdo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 184px;
+	}
+	#Rectangle_2_bdp {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdp {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 184px;
+	}
+	#Rectangle_2_bdq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 184px;
+	}
+	#Rectangle_2_bdr {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdr {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 184px;
+	}
+	#Rectangle_2_bds {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bds {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 184px;
+	}
+	#Rectangle_2_bdt {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdt {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 184px;
+	}
+	#Rectangle_2_bdu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 184px;
+	}
+	#Rectangle_2_bdv {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdv {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 184px;
+	}
+	#Rectangle_2_bdw {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdw {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 0px;
+		top: 207px;
+	}
+	#Rectangle_2_bdx {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdx {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 23px;
+		top: 207px;
+	}
+	#Rectangle_2_bdy {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdy {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 46px;
+		top: 207px;
+	}
+	#Rectangle_2_bdz {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bdz {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 69px;
+		top: 207px;
+	}
+	#Rectangle_2_bd {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bd {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 92px;
+		top: 207px;
+	}
+	#Rectangle_2_bea {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bea {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 115px;
+		top: 207px;
+	}
+	#Rectangle_2_beb {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beb {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 138px;
+		top: 207px;
+	}
+	#Rectangle_2_bec {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bec {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 161px;
+		top: 207px;
+	}
+	#Rectangle_2_bed {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bed {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 184px;
+		top: 207px;
+	}
+	#Rectangle_2_bee {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bee {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 207px;
+		top: 207px;
+	}
+	#Rectangle_2_bef {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bef {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 230px;
+		top: 207px;
+	}
+	#Rectangle_2_beg {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beg {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 253px;
+		top: 207px;
+	}
+	#Rectangle_2_beh {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beh {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 276px;
+		top: 207px;
+	}
+	#Rectangle_2_bei {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bei {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 299px;
+		top: 207px;
+	}
+	#Rectangle_2_bej {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bej {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 322px;
+		top: 207px;
+	}
+	#Rectangle_2_bek {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bek {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 345px;
+		top: 207px;
+	}
+	#Rectangle_2_bel {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bel {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 368px;
+		top: 207px;
+	}
+	#Rectangle_2_bem {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bem {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 391px;
+		top: 207px;
+	}
+	#Rectangle_2_ben {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ben {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 414px;
+		top: 207px;
+	}
+	#Rectangle_2_beo {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beo {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 437px;
+		top: 207px;
+	}
+	#Rectangle_2_bep {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bep {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 460px;
+		top: 207px;
+	}
+	#Rectangle_2_beq {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beq {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 483px;
+		top: 207px;
+	}
+	#Rectangle_2_ber {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_ber {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 506px;
+		top: 207px;
+	}
+	#Rectangle_2_bes {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bes {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 529px;
+		top: 207px;
+	}
+	#Rectangle_2_bet {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_bet {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 552px;
+		top: 207px;
+	}
+	#Rectangle_2_beu {
+		fill: rgba(190,190,190,1);
+	}
+	.Rectangle_2_beu {
+		position: absolute;
+		overflow: visible;
+		width: 3px;
+		height: 3px;
+		left: 575px;
+		top: 207px;
+	}
+	#Group_3010_r {
+		position: absolute;
+		width: 115px;
+		height: 111px;
+		left: 926.51px;
+		top: 66.819px;
+		overflow: visible;
+	}
+	#Group_29_s {
+		position: absolute;
+		width: 115px;
+		height: 109px;
+		left: 0px;
+		top: 1px;
+		overflow: visible;
+		padding: 0px;
+	}
+	#Ellipse_1_t {
+		opacity: 0.39;
+		fill: rgba(230,230,232,1);
+	}
+	.Ellipse_1_t {
+		position: absolute;
+		overflow: visible;
+		width: 115px;
+		height: 109px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sample_User_Icon_u {
+		opacity: 0.69;
+		position: absolute;
+		width: 111px;
+		height: 111px;
+		left: 2px;
+		top: 0px;
+		overflow: visible;
+	}
+	#scott-webb-57628-unsplash_v {
+		opacity: 0.24;
+		position: absolute;
+		width: 762px;
+		height: 800px;
+		left: 4px;
+		top: 0px;
+		overflow: visible;
+	}
+}
