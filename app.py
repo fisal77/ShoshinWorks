@@ -88,4 +88,4 @@ def topic_home_page_embed_squirro():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(ssl_context='adhoc')

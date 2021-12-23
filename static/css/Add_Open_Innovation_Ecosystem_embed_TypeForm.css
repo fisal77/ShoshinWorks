@@ -3525,6 +3525,14 @@
 		top: 27px;
 		overflow: visible;
 	}
+	#embedTypeForm {
+		position: absolute;
+		width: 1391px;
+		height: 818px;
+		left: 249px;
+		top: 136px;
+		overflow: visible;
+	}
 }
 @media (min-width: 1366px) and (max-width: 1919px) {
 	.mediaViewInfo {
@@ -7026,6 +7034,14 @@
 		top: 19.2px;
 		overflow: visible;
 	}
+	#embedTypeForm_1 {
+		position: absolute;
+		width: 991px;
+		height: 505px;
+		left: 137px;
+		top: 136px;
+		overflow: visible;
+	}
 }
 @media (min-width: 0px) and (max-width: 1365px) {
 	.mediaViewInfo {
@@ -10525,6 +10541,14 @@
 		height: 74px;
 		left: 1158.667px;
 		top: 20px;
+		overflow: visible;
+	}
+	#embedTypeForm_2 {
+		position: absolute;
+		width: 1104px;
+		height: 493.713px;
+		left: 88px;
+		top: 181px;
 		overflow: visible;
 	}
 }
