@@ -1,10 +1,11 @@
 import sys
 from pathlib import Path
 
+import jinja2
 from flask import Flask, render_template
 
 root_path = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent
-app = Flask(__name__.split('.')[0], root_path=root_path)
+app = Flask(__name__, template_folder=str(root_path / 'templates'), static_folder=str(root_path / 'static'))
 
 
 def create_app():
