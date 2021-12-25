@@ -87,4 +87,5 @@ APP = create_app()
 
 if __name__ == '__main__':
     APP.run(host='0.0.0.0')
-    # app.run(host='0.0.0.0', ssl_context='adhoc') for SSL in localhost only
+    # app.run(host='0.0.0.0', ssl_context='adhoc') for SSL in localhost only,
+    # If not working try `flask run --cert=adhoc` or add `--cert=adhoc` in the Interpreter Config. -> Additional options
