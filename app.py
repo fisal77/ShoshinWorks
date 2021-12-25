@@ -1,6 +1,10 @@
+import sys
+from pathlib import Path
+
 from flask import Flask, render_template
 
-app = Flask(__name__)
+root_path = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent
+app = Flask(__name__.split('.')[0], root_path=root_path)
 
 
 def create_app():
