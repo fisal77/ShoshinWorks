@@ -1,7 +1,5 @@
 import sys
 from pathlib import Path
-
-import jinja2
 from flask import Flask, render_template
 
 root_path = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent
@@ -10,13 +8,17 @@ app = Flask(__name__, template_folder=str(root_path / 'templates'), static_folde
 
 def create_app():
 
+    @app.route("/test.html")
+    def test():
+        return render_template('test.html')
+
     @app.route('/')
     @app.route("/home")
     @app.route("/index")
     @app.route("/Home.html")
     @app.route("/home.html")
     def index():
-        return render_template('pages/home.html')
+        return render_template('pages/Home.html')
 
     @app.route('/Login.html')
     def login():
