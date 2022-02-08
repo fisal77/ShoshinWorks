@@ -7,6 +7,7 @@
 <title>Topic_Home_Page_embed_Squirro</title>
 <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../../static/css/Topic_Home_Page_embed_Squirro.css"/>
 <script id="applicationScript" type="text/javascript" src="../../static/js/Topic_Home_Page_embed_Squirro.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body style="background: black">
 <div id="Topic_Home_Page_embed_Squirro">
@@ -1773,10 +1774,38 @@
 </div>
 
 <div id="embedSquirro" style="height: 421px;margin-top: 140px;margin-left: 30px;margin-right: 370px;">
-    <iframe src="https://shoshinworks.squirro.cloud/app/dashboard/zt7D7QPMQvOG8Xpw3W1LAQ/Azm8ezM4QCCkZJzmcYEDzA" style="width: -webkit-fill-available;height: inherit;border: 0px;transform: translateZ(0px);">
+    <iframe id="iframe_squirro" src="https://shoshinworks.squirro.cloud/app/dashboard/LKxx4igRTr2VnuG0IdUJsg/1lDu8Q5ZTfWRPUD4N10BmQ?token=17df82cf1eae5455a85406eca7e77f2ff8f2f8d48a8a7ee682e0cc44c13ae2c6fc5471a1328fe2111c299760b62399cd0002e46471383d6783419d3b3685fc6d" style="width: -webkit-fill-available; height: inherit; border: 0px; transform: translateZ(0px);">
     </iframe>
 </div>
 
+<!--
+<script>
+    var xhr = new XMLHttpRequest();
+    $.ajax({
+        url: 'https://shoshinworks.squirro.cloud/',
+        type: 'get',
+        xhr: function () {
+            console.log('Get request');
+            return xhr;
+        },
+        success: function () {
+            console.log('URL 1: ' + xhr.responseURL);
+            $.ajax({
+                url: xhr.responseURL,
+                type: 'post',
+                data: '',
+                xhr: function () {
+                    return xhr;
+                },
+                success: function () {
+                    $('#iframe_squirro').attr('src', xhr.responseURL);
+                    console.log('URL 2: ' + xhr.responseURL);
+                }
+            });
+        },
+    });
+</script>
+-->
 
 </body>
 </html>
