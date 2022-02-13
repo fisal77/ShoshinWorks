@@ -1199,12 +1199,18 @@
 			</ellipse>
 		</svg>
 	</div>
-	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
-	<a href="Login.html">
-	<img id="Sample_User_Icon_jv" src="../../static/img/Sample_User_Icon_jv.png" srcset="../../static/img/Sample_User_Icon_jv.png 1x, ../../static/img/Sample_User_Icon_jv@2x.png 2x">
-		
-	</a>
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_js" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
+        <a href="Login.html">
+            <img id="Sample_User_Icon_jv" src="../../static/img/Sample_User_Icon_jv.png" srcset="../../static/img/Sample_User_Icon_jv.png 1x, ../../static/img/Sample_User_Icon_jv@2x.png 2x">
+        </a>
+    {% endif %}
+
 </div>
 <div id="Add_Ecosystem_Topic_embed_TypeForm__1">
 	<div id="Talent_jy">
@@ -2396,12 +2402,19 @@
 			</ellipse>
 		</svg>
 	</div>
-	<img id="Sample_User_Icon_si" src="../../static/Sample_User_Icon_si.png" srcset="../../static/Sample_User_Icon_si.png 1x, ../../static/Sample_User_Icon_si@2x.png 2x">
-		
-	<a href="Login.html">
-	<img id="Sample_User_Icon_sj" src="../../static/Sample_User_Icon_sj.png" srcset="../../static/Sample_User_Icon_sj.png 1x, ../../static/Sample_User_Icon_sj@2x.png 2x">
-		
-	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_sg" src="{{ userinfo['picture'] }}">
+            <p id="username_si">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <img id="Sample_User_Icon_si" src="../../static/Sample_User_Icon_si.png" srcset="../../static/Sample_User_Icon_si.png 1x, ../../static/Sample_User_Icon_si@2x.png 2x">
+        <a href="Login.html">
+            <img id="Sample_User_Icon_sj" src="../../static/Sample_User_Icon_sj.png" srcset="../../static/Sample_User_Icon_sj.png 1x, ../../static/Sample_User_Icon_sj@2x.png 2x">
+        </a>
+    {% endif %}
+
 </div>
 <div id="Add_Ecosystem_Topic_embed_TypeForm__2">
 	<div id="Talent_sm">
@@ -3593,15 +3606,22 @@
 			</ellipse>
 		</svg>
 	</div>
-	<img id="Sample_User_Icon_" src="../../static/Sample_User_Icon_.png" srcset="../../static/Sample_User_Icon_.png 1x, ../../static/Sample_User_Icon_@2x.png 2x">
-		
-	<a href="Login.html">
-	<img id="Sample_User_Icon_a" src="../../static/Sample_User_Icon_a.png" srcset="../../static/Sample_User_Icon_a.png 1x, ../../static/Sample_User_Icon_a@2x.png 2x">
-		
-	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Sample_User_Icon_" src="{{ userinfo['picture'] }}">
+            <p id="username_">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <img id="Sample_User_Icon_" src="../../static/Sample_User_Icon_.png" srcset="../../static/Sample_User_Icon_.png 1x, ../../static/Sample_User_Icon_@2x.png 2x">
+        <a href="Login.html">
+            <img id="Sample_User_Icon_a" src="../../static/Sample_User_Icon_a.png" srcset="../../static/Sample_User_Icon_a.png 1x, ../../static/Sample_User_Icon_a@2x.png 2x">
+        </a>
+    {% endif %}
+
 </div>
 
-<div data-tf-widget="m9leIQKC" id="embedTypeForm" style="height: 340px; margin-top: 160px; margin-left: 30px; margin-right: 150px;"></div>
+<div data-tf-widget="m9leIQKC" id="embedTypeForm" style="height: 340px; margin-top: 254px; margin-left: 30px; margin-right: 150px;"></div>
 <script src="https://embed.typeform.com/next/embed.js"></script>
 
 </body>

@@ -94,6 +94,13 @@
 		top: 42px;
 		overflow: visible;
 	}
+	#username {
+		position: absolute;
+		left: 1741px;
+		top: 166px;
+		color: white;
+		overflow: visible;
+	}
 	#Line_22 {
 		fill: transparent;
 	}
@@ -975,6 +982,13 @@
 		top: 29.867px;
 		overflow: visible;
 	}
+	#username_c {
+		position: absolute;
+		left: 1238.65px;
+		top: 120.867px;
+		overflow: visible;
+		color: white;
+	}
 	#Line_22_c {
 		fill: transparent;
 	}
@@ -1851,6 +1865,13 @@
 		left: 1160.667px;
 		top: 31.111px;
 		overflow: visible;
+	}
+	#username_e {
+		position: absolute;
+		left: 1160.67px;
+		top: 116.111px;
+		overflow: visible;
+		color: white;
 	}
 	#Line_22_e {
 		fill: transparent;

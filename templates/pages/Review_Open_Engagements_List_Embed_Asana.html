@@ -590,20 +590,31 @@
 			<span>search here...</span>
 		</div>
 	</div>
-	<div id="Group_350">
-		<img id="team-3" src="../../static/img/team-3.png" srcset="../../static/img/team-3.png 1x, ../../static/img/team-3@2x.png 2x">
-			
-		<div id="user">
-			<span>user</span>
-		</div>
-		<svg class="Ellipse_6">
-			<ellipse id="Ellipse_6" rx="5" ry="5" cx="5" cy="5">
-			</ellipse>
-		</svg>
-		<img id="Mask_Group_2" src="../../static/img/Mask_Group_2.png" srcset="../../static/img/Mask_Group_2.png 1x, ../../static/img/Mask_Group_2@2x.png 2x">
-			
-		</svg>
-	</div>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_350" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_350">
+            <a href="Login.html">
+                <img id="team-3" src="../../static/img/team-3.png" srcset="../../static/img/team-3.png 1x, ../../static/img/team-3@2x.png 2x">
+            </a>
+            <div id="user">
+                <span>user</span>
+            </div>
+            <svg class="Ellipse_6">
+                <ellipse id="Ellipse_6" rx="5" ry="5" cx="5" cy="5">
+                </ellipse>
+            </svg>
+            <img id="Mask_Group_2" src="../../static/img/Mask_Group_2.png" srcset="../../static/img/Mask_Group_2.png 1x, ../../static/img/Mask_Group_2@2x.png 2x">
+
+            </svg>
+        </div>
+    {% endif %}
+
+
 	<img id="Mask_Group_3" src="../../static/img/Mask_Group_3.png" srcset="../../static/img/Mask_Group_3.png 1x, ../../static/img/Mask_Group_3@2x.png 2x">
 		
 	</svg>
@@ -1199,20 +1210,29 @@
 			<span>search here...</span>
 		</div>
 	</div>
-	<div id="Group_350_lp">
-		<img id="team-3_lq" src="../../static/team-3_lq.png" srcset="../../static/team-3_lq.png 1x, ../../static/team-3_lq@2x.png 2x">
-			
-		<div id="user_lr">
-			<span>user</span>
-		</div>
-		<svg class="Ellipse_6_ls">
-			<ellipse id="Ellipse_6_ls" rx="5" ry="5" cx="5" cy="5">
-			</ellipse>
-		</svg>
-		<img id="Mask_Group_2_lt" src="../../static/Mask_Group_2_lt.png" srcset="../../static/Mask_Group_2_lt.png 1x, ../../static/Mask_Group_2_lt@2x.png 2x">
-			
-		</svg>
-	</div>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_350_lp" src="{{ userinfo['picture'] }}">
+            <p id="username_lp">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_350_lp">
+            <a href="Login.html">
+                <img id="team-3_lq" src="../../static/team-3_lq.png" srcset="../../static/team-3_lq.png 1x, ../../static/team-3_lq@2x.png 2x">
+            </a>
+            <div id="user_lr">
+                <span>user</span>
+            </div>
+            <svg class="Ellipse_6_ls">
+                <ellipse id="Ellipse_6_ls" rx="5" ry="5" cx="5" cy="5">
+                </ellipse>
+            </svg>
+            <img id="Mask_Group_2_lt" src="../../static/Mask_Group_2_lt.png" srcset="../../static/Mask_Group_2_lt.png 1x, ../../static/Mask_Group_2_lt@2x.png 2x">
+            </svg>
+        </div>
+    {% endif %}
+
 	<img id="Mask_Group_3_lu" src="../../static/Mask_Group_3_lu.png" srcset="../../static/Mask_Group_3_lu.png 1x, ../../static/Mask_Group_3_lu@2x.png 2x">
 		
 	</svg>
@@ -1808,20 +1828,30 @@
 			<span>search here...</span>
 		</div>
 	</div>
-	<div id="Group_350_q">
-		<img id="team-3_q" src="../../static/team-3_q.png" srcset="../../static/team-3_q.png 1x, ../../static/team-3_q@2x.png 2x">
-			
-		<div id="user_q">
-			<span>user</span>
-		</div>
-		<svg class="Ellipse_6_q">
-			<ellipse id="Ellipse_6_q" rx="5" ry="5" cx="5" cy="5">
-			</ellipse>
-		</svg>
-		<img id="Mask_Group_2_q" src="../../static/Mask_Group_2_q.png" srcset="../../static/Mask_Group_2_q.png 1x, ../../static/Mask_Group_2_q@2x.png 2x">
-			
-		</svg>
-	</div>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_350_q" src="{{ userinfo['picture'] }}">
+            <p id="username_q">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_350_q">
+            <a href="Login.html">
+                <img id="team-3_q" src="../../static/team-3_q.png" srcset="../../static/team-3_q.png 1x, ../../static/team-3_q@2x.png 2x">
+            </a>
+            <div id="user_q">
+                <span>user</span>
+            </div>
+            <svg class="Ellipse_6_q">
+                <ellipse id="Ellipse_6_q" rx="5" ry="5" cx="5" cy="5">
+                </ellipse>
+            </svg>
+            <img id="Mask_Group_2_q" src="../../static/Mask_Group_2_q.png" srcset="../../static/Mask_Group_2_q.png 1x, ../../static/Mask_Group_2_q@2x.png 2x">
+
+            </svg>
+        </div>
+    {% endif %}
+
 	<img id="Mask_Group_3_q" src="../../static/Mask_Group_3_q.png" srcset="../../static/Mask_Group_3_q.png 1x, ../../static/Mask_Group_3_q@2x.png 2x">
 		
 	</svg>

@@ -79,17 +79,26 @@
 	<div id="n_5">
 		<span>05</span>
 	</div>
-	<a href="Login.html">
-	<svg class="Path_9736" viewBox="0 0 131 48">
-		<path id="Path_9736" d="M 7 0 L 124 0 C 127.8659973144531 0 131 3.134006500244141 131 7 L 131 41 C 131 44.86599349975586 127.8659973144531 48 124 48 L 7 48 C 3.134006500244141 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 3.134006500244141 0 7 0 Z">
-		</path>
-	</svg>
-</a>
-	<a href="Login.html">
-	<div id="sign_in">
-		<span>sign in</span>
-	</div>
-	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Sample_User_Icon" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <a href="Login.html">
+        <svg class="Path_9736" viewBox="0 0 131 48">
+            <path id="Path_9736" d="M 7 0 L 124 0 C 127.8659973144531 0 131 3.134006500244141 131 7 L 131 41 C 131 44.86599349975586 127.8659973144531 48 124 48 L 7 48 C 3.134006500244141 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 3.134006500244141 0 7 0 Z">
+            </path>
+        </svg>
+        </a>
+        <a href="Login.html">
+        <div id="sign_in">
+            <span>sign in</span>
+        </div>
+        </a>
+    {% endif %}
+
 	<div id="Group_29">
 		<svg class="Rectangle_3">
 			<rect id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="48" height="216">
@@ -135,7 +144,7 @@
 			<span>05</span>
 		</div>
 	</div>
-	<a href="Login.html">
+
 	<div id="Group_5">
 		<svg class="Ellipse_1">
 			<ellipse id="Ellipse_1" rx="35" ry="35" cx="35" cy="35">
@@ -152,7 +161,7 @@
 			</svg>
 		</div>
 	</div>
-	</a>
+
 	<div id="Group_6">
 		<svg class="Ellipse_1_b">
 			<ellipse id="Ellipse_1_b" rx="35" ry="35" cx="35" cy="35">
@@ -256,17 +265,26 @@
 	<div id="n_5_c">
 		<span>05</span>
 	</div>
-	<a href="Login.html">
-	<svg class="Path_9736_c" viewBox="0 0 131 48">
-		<path id="Path_9736_c" d="M 7 0 L 124 0 C 127.8659973144531 0 131 3.134006500244141 131 7 L 131 41 C 131 44.86599349975586 127.8659973144531 48 124 48 L 7 48 C 3.134006500244141 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 3.134006500244141 0 7 0 Z">
-		</path>
-	</svg>
-</a>
-	<a href="Login.html">
-	<div id="sign_in_c">
-		<span>sign in</span>
-	</div>
-	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Sample_User_Icon_c" src="{{ userinfo['picture'] }}">
+            <p id="username_c">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <a href="Login.html">
+            <svg class="Path_9736_c" viewBox="0 0 131 48">
+                <path id="Path_9736_c" d="M 7 0 L 124 0 C 127.8659973144531 0 131 3.134006500244141 131 7 L 131 41 C 131 44.86599349975586 127.8659973144531 48 124 48 L 7 48 C 3.134006500244141 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 3.134006500244141 0 7 0 Z">
+                </path>
+            </svg>
+        </a>
+        <a href="Login.html">
+            <div id="sign_in_c">
+                <span>sign in</span>
+            </div>
+        </a>
+    {% endif %}
+
 	<div id="Group_29_c">
 		<svg class="Rectangle_3_c">
 			<rect id="Rectangle_3_c" rx="0" ry="0" x="0" y="0" width="48" height="216">
@@ -312,7 +330,7 @@
 			<span>05</span>
 		</div>
 	</div>
-	<a href="Login.html">
+
 	<div id="Group_5_dm">
 		<svg class="Ellipse_1_dn">
 			<ellipse id="Ellipse_1_dn" rx="27" ry="27.5" cx="27" cy="27.5">
@@ -329,7 +347,7 @@
 			</svg>
 		</div>
 	</div>
-	</a>
+
 	<div id="Group_6_dr">
 		<svg class="Ellipse_1_ds">
 			<ellipse id="Ellipse_1_ds" rx="29.5" ry="27.5" cx="29.5" cy="27.5">
@@ -433,17 +451,26 @@
 	<div id="n_5_en">
 		<span>05</span>
 	</div>
-	<a href="Login.html">
-	<svg class="Path_9736_eo" viewBox="0 0 100.37 48">
-		<path id="Path_9736_eo" d="M 5.36326265335083 0 L 95.00636291503906 0 C 97.96841430664063 0 100.36962890625 3.134006500244141 100.36962890625 7 L 100.36962890625 41 C 100.36962890625 44.86599349975586 97.96841430664063 48 95.00636291503906 48 L 5.36326265335083 48 C 2.401214122772217 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 2.401214122772217 0 5.36326265335083 0 Z">
-		</path>
-	</svg>
-</a>
-	<a href="Login.html">
-	<div id="sign_in_ep">
-		<span>sign in</span>
-	</div>
-	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Sample_User_Icon_eo" src="{{ userinfo['picture'] }}">
+            <p id="username_eo">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <a href="Login.html">
+            <svg class="Path_9736_eo" viewBox="0 0 100.37 48">
+                <path id="Path_9736_eo" d="M 5.36326265335083 0 L 95.00636291503906 0 C 97.96841430664063 0 100.36962890625 3.134006500244141 100.36962890625 7 L 100.36962890625 41 C 100.36962890625 44.86599349975586 97.96841430664063 48 95.00636291503906 48 L 5.36326265335083 48 C 2.401214122772217 48 0 44.86599349975586 0 41 L 0 7 C 0 3.134006500244141 2.401214122772217 0 5.36326265335083 0 Z">
+                </path>
+            </svg>
+        </a>
+        <a href="Login.html">
+            <div id="sign_in_ep">
+                <span>sign in</span>
+            </div>
+        </a>
+    {% endif %}
+
 	<div id="Group_29_eq">
 		<svg class="Rectangle_3_er">
 			<rect id="Rectangle_3_er" rx="0" ry="0" x="0" y="0" width="48" height="216">
@@ -489,7 +516,7 @@
 			<span>05</span>
 		</div>
 	</div>
-	<a href="Login.html">
+
 	<div id="Group_5_e">
 		<svg class="Ellipse_1_e">
 			<ellipse id="Ellipse_1_e" rx="27" ry="27.5" cx="27" cy="27.5">
@@ -506,7 +533,7 @@
 			</svg>
 		</div>
 	</div>
-	</a>
+
 	<div id="Group_6_fa">
 		<svg class="Ellipse_1_fb">
 			<ellipse id="Ellipse_1_fb" rx="29" ry="27.5" cx="29" cy="27.5">

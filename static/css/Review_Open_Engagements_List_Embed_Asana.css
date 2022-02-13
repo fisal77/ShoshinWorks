@@ -2264,6 +2264,13 @@
 		top: 33px;
 		overflow: visible;
 	}
+	#username {
+		position: absolute;
+		left: 1715px;
+		top: 90px;
+		overflow: visible;
+		color: white;
+	}
 	#team-3 {
 		position: absolute;
 		width: 44px;
@@ -4601,11 +4608,18 @@
 	}
 	#Group_350_lp {
 		position: absolute;
-		width: 125px;
+		width: 70px;
 		height: 47px;
 		left: 1178px;
 		top: 34px;
 		overflow: visible;
+	}
+	#username_lp {
+		position: absolute;
+		left: 1178px;
+		top: 80px;
+		overflow: visible;
+		color: white;
 	}
 	#team-3_lq {
 		position: absolute;
@@ -6949,6 +6963,13 @@
 		left: 1092px;
 		top: 34px;
 		overflow: visible;
+	}
+	#username_q {
+		position: absolute;
+		left: 1092px;
+		top: 90px;
+		overflow: visible;
+		color: white;
 	}
 	#team-3_q {
 		position: absolute;

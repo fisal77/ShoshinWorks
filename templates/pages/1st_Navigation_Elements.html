@@ -16,9 +16,14 @@
 			</ellipse>
 		</svg>
 	</div>
-	<a href="Login.html">
-	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
+        {% if userinfo %}
+            <a href="logout">
+            <img id="Sample_User_Icon" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        {% else %}
+            <a href="Login.html">
+            <img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
+		{% endif %}
 	</a>
 	<svg class="Line_22" viewBox="0 0 291 1">
 		<path id="Line_22" d="M 0 0 L 291 0">
@@ -197,9 +202,15 @@
 			</ellipse>
 		</svg>
 	</div>
-	<a href="Login.html">
-	<img id="Sample_User_Icon_c" src="../../static/Sample_User_Icon_c.png" srcset="../../static/Sample_User_Icon_c.png 1x, ../../static/Sample_User_Icon_c@2x.png 2x">
-		
+    {% if userinfo %}
+        <a href="logout">
+        <img id="Sample_User_Icon_c" src="{{ userinfo['picture'] }}">
+        <p id="username_c">{{ userinfo['name'] }} <br>(Logout)</p>
+    {% else %}
+        <a href="Login.html">
+        <img id="Sample_User_Icon_c" src="../../static/Sample_User_Icon_c.png"
+             srcset="../../static/Sample_User_Icon_c.png 1x, ../../static/Sample_User_Icon_c@2x.png 2x">
+    {% endif %}
 	</a>
 	<svg class="Line_22_c" viewBox="0 0 291 1">
 		<path id="Line_22_c" d="M 0 0 L 291 0">
@@ -377,10 +388,17 @@
 			</ellipse>
 		</svg>
 	</div>
-	<a href="Login.html">
-	<img id="Sample_User_Icon_e" src="../../static/Sample_User_Icon_e.png" srcset="../../static/Sample_User_Icon_e.png 1x, ../../static/Sample_User_Icon_e@2x.png 2x">
-		
+    {% if userinfo %}
+        <a href="logout">
+        <img id="Sample_User_Icon_e" src="{{ userinfo['picture'] }}">
+        <p id="username_e">{{ userinfo['name'] }} <br>(Logout)</p>
+    {% else %}
+        <a href="Login.html">
+        <img id="Sample_User_Icon_e" src="../../static/Sample_User_Icon_e.png"
+             srcset="../../static/Sample_User_Icon_e.png 1x, ../../static/Sample_User_Icon_e@2x.png 2x">
+    {% endif %}
 	</a>
+
 	<svg class="Line_22_e" viewBox="0 0 291 1">
 		<path id="Line_22_e" d="M 0 0 L 291 0">
 		</path>

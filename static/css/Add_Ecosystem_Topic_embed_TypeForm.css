@@ -3520,6 +3520,13 @@
 		top: 105px;
 		overflow: visible;
 	}
+	#username {
+		position: absolute;
+		left: 1736px;
+		top: 140px;
+		color: white;
+		overflow: visible;
+	}
 	#Sample_User_Icon_jv {
 		opacity: 0.69;
 		position: absolute;
@@ -7021,6 +7028,13 @@
 		top: 74.667px;
 		overflow: visible;
 	}
+	#username_si {
+		position: absolute;
+		left: 1235.092px;
+		top: 130px;
+		overflow: visible;
+		color: white;
+	}
 	#Sample_User_Icon_sj {
 		opacity: 0.69;
 		position: absolute;
@@ -10520,6 +10534,13 @@
 		height: 74px;
 		left: 904.667px;
 		top: 77.778px;
+		overflow: visible;
+	}
+		#username_ {
+		position: absolute;
+		left: 904.667px;
+		top: 166px;
+		color: white;
 		overflow: visible;
 	}
 	#Sample_User_Icon_a {

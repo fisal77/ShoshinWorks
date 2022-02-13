@@ -216,15 +216,24 @@
 		<span>Add Engagement </span>
 	</div>
 	<img id="plus" src="../../static/img/plus.png" srcset="../../static/img/plus.png 1x, ../../static/img/plus@2x.png 2x">
-		
-	<div id="Group_29">
-		<svg class="Ellipse_1_dg">
-			<ellipse id="Ellipse_1_dg" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29">
+            <svg class="Ellipse_1_dg">
+                <ellipse id="Ellipse_1_dg" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
+        </a>
+    {% endif %}
+
 	<div id="segmentvertical" class="segment_vertical">
 		<iframe src="https://www.Herox.com"></iframe>
 	</div>
@@ -407,14 +416,24 @@
 		<img id="plus_f" src="../../static/plus_f.png" srcset="../../static/plus_f.png 1x, ../../static/plus_f@2x.png 2x">
 			
 	</div>
-	<div id="Group_29_f">
-		<svg class="Ellipse_1_f">
-			<ellipse id="Ellipse_1_f" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_f" src="../../static/Sample_User_Icon_f.png" srcset="../../static/Sample_User_Icon_f.png 1x, ../../static/Sample_User_Icon_f@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_f" src="{{ userinfo['picture'] }}">
+            <p id="username_f">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29_f">
+            <svg class="Ellipse_1_f">
+                <ellipse id="Ellipse_1_f" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon_f" src="../../static/Sample_User_Icon_f.png" srcset="../../static/Sample_User_Icon_f.png 1x, ../../static/Sample_User_Icon_f@2x.png 2x">
+        </a>
+    {% endif %}
+
 	<div id="innovation_f">
 		<span>innovation</span>
 	</div>
@@ -522,14 +541,25 @@
 	<div id="n_2_g">
 		<span>02</span>
 	</div>
-	<div id="Group_29_g">
-		<svg class="Ellipse_1_g">
-			<ellipse id="Ellipse_1_g" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_g" src="../../static/Sample_User_Icon_g.png" srcset="../../static/Sample_User_Icon_g.png 1x, ../../static/Sample_User_Icon_g@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_g" src="{{ userinfo['picture'] }}">
+            <p id="username_g">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+
+            <div id="Group_29_g">
+                <svg class="Ellipse_1_g">
+                    <ellipse id="Ellipse_1_g" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
+                    </ellipse>
+                </svg>
+            </div>
+            <a href="Login.html">
+                <img id="Sample_User_Icon_g" src="../../static/Sample_User_Icon_g.png" srcset="../../static/Sample_User_Icon_g.png 1x, ../../static/Sample_User_Icon_g@2x.png 2x">
+            </a>
+    {% endif %}
+
 	<div id="innovation_g">
 		<span>innovation</span>
 	</div>

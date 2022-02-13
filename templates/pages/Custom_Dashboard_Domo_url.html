@@ -197,6 +197,14 @@
 	<img id="shoshinelogo" src="../../static/img/shoshinelogo.png" srcset="../../static/img/shoshinelogo.png 1x, ../../static/img/shoshinelogo@2x.png 2x">
 		
 	</a>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+    <a href="Login.html">
 	<div id="Group_29">
 		<svg class="Ellipse_1_df">
 			<ellipse id="Ellipse_1_df" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
@@ -204,7 +212,10 @@
 		</svg>
 	</div>
 	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
+    </a>
+    {% endif %}
+
+
 {#	<img id="Image_2" src="../../static/img/Image_2.png" srcset="../../static/img/Image_2.png 1x, ../../static/img/Image_2@2x.png 2x">#}
 		
 </div>
@@ -353,6 +364,14 @@
 			<span>05</span>
 		</div>
 	</div>
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_eu" src="{{ userinfo['picture'] }}">
+            <p id="username_eu">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+    <a href="Login.html">
 	<div id="Group_29_eu">
 		<svg class="Ellipse_1_ev">
 			<ellipse id="Ellipse_1_ev" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
@@ -360,7 +379,9 @@
 		</svg>
 	</div>
 	<img id="Sample_User_Icon_ew" src="../../static/Sample_User_Icon_ew.png" srcset="../../static/Sample_User_Icon_ew.png 1x, ../../static/Sample_User_Icon_ew@2x.png 2x">
-		
+    </a>
+    {% endif %}
+
 </div>
 <div id="Custom_Dashboard_Domo_url__2">
 	<a href="Home.html">
@@ -410,6 +431,14 @@
 	<div id="n_4_fd">
 		<span>04</span>
 	</div>
+
+        {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_fe" src="{{ userinfo['picture'] }}">
+            <p id="username_fe">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+    <a href="Login.html">
 	<div id="Group_29_fe">
 		<svg class="Ellipse_1_ff">
 			<ellipse id="Ellipse_1_ff" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
@@ -417,7 +446,9 @@
 		</svg>
 	</div>
 	<img id="Sample_User_Icon_fg" src="../../static/Sample_User_Icon_fg.png" srcset="../../static/Sample_User_Icon_fg.png 1x, ../../static/Sample_User_Icon_fg@2x.png 2x">
-		
+    </a>
+    {% endif %}
+
 {#	<div id="Group_7_fh">#}
 {#		<svg class="Ellipse_1_fi">#}
 {#			<ellipse id="Ellipse_1_fi" rx="33.5" ry="32" cx="33.5" cy="32">#}

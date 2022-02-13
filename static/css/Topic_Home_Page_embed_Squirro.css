@@ -2379,6 +2379,13 @@
 		top: 41px;
 		overflow: visible;
 	}
+	#username {
+		position: absolute;
+		color: white;
+		left: 1744px;
+		top: 160px;
+		overflow: visible;
+	}
 	#Ellipse_1_gr {
 		opacity: 0.39;
 		fill: rgba(230,230,232,1);
@@ -4879,6 +4886,13 @@
 		top: 29.156px;
 		overflow: visible;
 	}
+	#username_l {
+		position: absolute;
+		color: white;
+		left: 1240.783px;
+		top: 111px;
+		overflow: visible;
+	}
 	#Ellipse_1_l {
 		opacity: 0.39;
 		fill: rgba(230,230,232,1);
@@ -7370,6 +7384,13 @@
 		left: 1162.667px;
 		top: 30.371px;
 		overflow: visible;
+	}
+	#username_rf {
+		position: absolute;
+		left: 1162.667px;
+		top: 111px;
+		overflow: visible;
+		color: white;
 	}
 	#Ellipse_1_rg {
 		opacity: 0.39;

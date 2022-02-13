@@ -197,16 +197,25 @@
 	<img id="shoshinelogo" src="../../static/img/shoshinelogo.png" srcset="../../static/img/shoshinelogo.png 1x, ../../static/img/shoshinelogo@2x.png 2x">
 		
 	</a>
-	<div id="Group_29">
-		<svg class="Ellipse_1_dd">
-			<ellipse id="Ellipse_1_dd" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
-	<img id="Image_1" src="../../static/img/Image_1.png" srcset="../../static/img/Image_1.png 1x, ../../static/img/Image_1@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29">
+            <svg class="Ellipse_1_dd">
+                <ellipse id="Ellipse_1_dd" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
+            <img id="Image_1" src="../../static/img/Image_1.png" srcset="../../static/img/Image_1.png 1x, ../../static/img/Image_1@2x.png 2x">
+        </a>
+    {% endif %}
+
 </div>
 <div id="Research_Corpus_S3_embed__1">
 	<div id="Group_9_di">
@@ -396,16 +405,25 @@
 	<img id="shoshinelogo_e" src="../../static/shoshinelogo_e.png" srcset="../../static/shoshinelogo_e.png 1x, ../../static/shoshinelogo_e@2x.png 2x">
 		
 	</a>
-	<div id="Group_29_e">
-		<svg class="Ellipse_1_e">
-			<ellipse id="Ellipse_1_e" rx="40.90885543823242" ry="38.75555419921875" cx="40.90885543823242" cy="38.75555419921875">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_e" src="../../static/Sample_User_Icon_e.png" srcset="../../static/Sample_User_Icon_e.png 1x, ../../static/Sample_User_Icon_e@2x.png 2x">
-		
-	<img id="Image_1_e" src="../../static/Image_1_e.png" srcset="../../static/Image_1_e.png 1x, ../../static/Image_1_e@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_e" src="{{ userinfo['picture'] }}">
+            <p id="username_e">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29_e">
+            <svg class="Ellipse_1_e">
+                <ellipse id="Ellipse_1_e" rx="40.90885543823242" ry="38.75555419921875" cx="40.90885543823242" cy="38.75555419921875">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon_e" src="../../static/Sample_User_Icon_e.png" srcset="../../static/Sample_User_Icon_e.png 1x, ../../static/Sample_User_Icon_e@2x.png 2x">
+            <img id="Image_1_e" src="../../static/Image_1_e.png" srcset="../../static/Image_1_e.png 1x, ../../static/Image_1_e@2x.png 2x">
+        </a>
+    {% endif %}
+
 </div>
 <div id="Research_Corpus_S3_embed__2">
 	<div id="Group_9_fc">
@@ -464,14 +482,24 @@
 	<img id="shoshinelogo_ft" src="../../static/shoshinelogo_ft.png" srcset="../../static/shoshinelogo_ft.png 1x, ../../static/shoshinelogo_ft@2x.png 2x">
 		
 	</a>
-	<div id="Group_29_fu">
-		<svg class="Ellipse_1_fv">
-			<ellipse id="Ellipse_1_fv" rx="38.333335876464844" ry="38.75555419921875" cx="38.333335876464844" cy="38.75555419921875">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_fw" src="../../static/Sample_User_Icon_fw.png" srcset="../../static/Sample_User_Icon_fw.png 1x, ../../static/Sample_User_Icon_fw@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_fu" src="{{ userinfo['picture'] }}">
+            <p id="username_fu">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29_fu">
+            <svg class="Ellipse_1_fv">
+                <ellipse id="Ellipse_1_fv" rx="38.333335876464844" ry="38.75555419921875" cx="38.333335876464844" cy="38.75555419921875">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon_fw" src="../../static/Sample_User_Icon_fw.png" srcset="../../static/Sample_User_Icon_fw.png 1x, ../../static/Sample_User_Icon_fw@2x.png 2x">
+        </a>
+    {% endif %}
+
 	<div id="Group_10_fx">
 		<svg class="Rectangle_3_fy">
 			<rect id="Rectangle_3_fy" rx="0" ry="0" x="0" y="0" width="48" height="216">

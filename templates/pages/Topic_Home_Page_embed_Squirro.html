@@ -556,14 +556,25 @@
 	<img id="shoshinelogo" src="../../static/img/shoshinelogo.png" srcset="../../static/img/shoshinelogo.png 1x, ../../static/img/shoshinelogo@2x.png 2x">
 		
 	</a>
-	<div id="Group_29">
-		<svg class="Ellipse_1_gr">
-			<ellipse id="Ellipse_1_gr" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29" src="{{ userinfo['picture'] }}">
+            <p id="username">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29">
+            <svg class="Ellipse_1_gr">
+                <ellipse id="Ellipse_1_gr" rx="57.5" ry="54.5" cx="57.5" cy="54.5">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon" src="../../static/img/Sample_User_Icon.png" srcset="../../static/img/Sample_User_Icon.png 1x, ../../static/img/Sample_User_Icon@2x.png 2x">
+        </a>
+    {% endif %}
+
+
 	<div id="Group_3009">
 		<div id="Group_3008">
 			<a href="Research_Corpus_S3_embed.html">
@@ -1146,14 +1157,24 @@
 	<img id="shoshinelogo_l" src="../../static/shoshinelogo_l.png" srcset="../../static/shoshinelogo_l.png 1x, ../../static/shoshinelogo_l@2x.png 2x">
 		
 	</a>
-	<div id="Group_29_l">
-		<svg class="Ellipse_1_l">
-			<ellipse id="Ellipse_1_l" rx="40.90885543823242" ry="38.75555419921875" cx="40.90885543823242" cy="38.75555419921875">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_l" src="../../static/Sample_User_Icon_l.png" srcset="../../static/Sample_User_Icon_l.png 1x, ../../static/Sample_User_Icon_l@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_l" src="{{ userinfo['picture'] }}">
+            <p id="username_l">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29_l">
+            <svg class="Ellipse_1_l">
+                <ellipse id="Ellipse_1_l" rx="40.90885543823242" ry="38.75555419921875" cx="40.90885543823242" cy="38.75555419921875">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon_l" src="../../static/Sample_User_Icon_l.png" srcset="../../static/Sample_User_Icon_l.png 1x, ../../static/Sample_User_Icon_l@2x.png 2x">
+        </a>
+    {% endif %}
+
 	<div id="Group_3009_l">
 		<a href="Research_Corpus_S3_embed.html">
 		<svg class="Rectangle_185_l">
@@ -1734,14 +1755,24 @@
 	<img id="shoshinelogo_re" src="../../static/shoshinelogo_re.png" srcset="../../static/shoshinelogo_re.png 1x, ../../static/shoshinelogo_re@2x.png">
 		
 	</a>
-	<div id="Group_29_rf">
-		<svg class="Ellipse_1_rg">
-			<ellipse id="Ellipse_1_rg" rx="38.333335876464844" ry="40.37036895751953" cx="38.333335876464844" cy="40.37036895751953">
-			</ellipse>
-		</svg>
-	</div>
-	<img id="Sample_User_Icon_rh" src="../../static/Sample_User_Icon_rh.png" srcset="../../static/Sample_User_Icon_rh.png 1x, ../../static/Sample_User_Icon_rh@2x.png 2x">
-		
+
+    {% if userinfo %}
+        <a href="logout">
+            <img id="Group_29_rf" src="{{ userinfo['picture'] }}">
+            <p id="username_rf">{{ userinfo['name'] }} <br>(Logout)</p>
+        </a>
+    {% else %}
+        <div id="Group_29_rf">
+            <svg class="Ellipse_1_rg">
+                <ellipse id="Ellipse_1_rg" rx="38.333335876464844" ry="40.37036895751953" cx="38.333335876464844" cy="40.37036895751953">
+                </ellipse>
+            </svg>
+        </div>
+        <a href="Login.html">
+            <img id="Sample_User_Icon_rh" src="../../static/Sample_User_Icon_rh.png" srcset="../../static/Sample_User_Icon_rh.png 1x, ../../static/Sample_User_Icon_rh@2x.png 2x">
+        </a>
+    {% endif %}
+
 	<div id="Group_3009_ri">
 		<a href="Research_Corpus_S3_embed.html">
 		<svg class="Rectangle_185_rj">

@@ -345,6 +345,21 @@
 		top: 44px;
 		transform: matrix(1,0,0,1,0,0);
 	}
+	#Sample_User_Icon {
+		overflow: visible;
+		position: absolute;
+		width: 131px;
+		height: 100px;
+		left: 1718px;
+		top: 44px;
+	}
+	#username {
+		position: absolute;
+		left: 1718px;
+		top: 166px;
+		color: white;
+		overflow: visible;
+	}
 	#sign_in {
 		left: 1755px;
 		top: 57px;
@@ -1039,6 +1054,21 @@
 		left: 1164px;
 		top: 44px;
 		transform: matrix(1,0,0,1,0,0);
+	}
+	#Sample_User_Icon_c {
+		overflow: visible;
+		position: absolute;
+		width: 131px;
+		height: 100px;
+		left: 1164px;
+		top: 44px;
+	}
+	#username_c {
+		position: absolute;
+		left: 1164px;
+		top: 166px;
+		color: white;
+		overflow: visible;
 	}
 	#sign_in_c {
 		left: 1201px;
@@ -1740,6 +1770,21 @@
 		left: 1092.404px;
 		top: 44px;
 		transform: matrix(1,0,0,1,0,0);
+	}
+	#Sample_User_Icon_eo {
+		overflow: visible;
+		position: absolute;
+		width: 100.37px;
+		height: 100px;
+		left: 1092.404px;
+		top: 44px;
+	}
+	#username_eo {
+		position: absolute;
+		left: 1092.404px;
+		top: 166px;
+		color: white;
+		overflow: visible;
 	}
 	#sign_in_ep {
 		left: 1115px;
